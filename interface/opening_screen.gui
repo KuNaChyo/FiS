@@ -107,18 +107,6 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "TNO_OpeningScreen_Text"
-			position = { x = 14 y = 38 }
-			font = "aldrich_24_outline"
-			text = "[GET_CURRENT_INTRO_TEXT]"
-			maxWidth = 712
-			maxHeight = 410
-			alwaystransparent = yes
-			scrollbarType = standardtext_slider
-			
-		}
-		
-		instantTextBoxType = {
 			name = "TNO_OpeningScreen_Text_Small"
 			position = { x = 14 y = 38 }
 			font = "aldrich_24_outline"

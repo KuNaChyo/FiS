@@ -6,7 +6,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="party_pop_text"
-			position = { x= 2 y = 4 }
+			position = { x= 5 y = 4 }
 			font = "aldrich_18_outline"
 			text = "[Root.GetPopularityPercent]"
 			format = right

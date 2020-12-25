@@ -179,7 +179,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="stability"
-			position = { x= 273 y = 9 }
+			position = { x= 276 y = 9 }
 			font = "aldrich_18_outline"
 			text = "100%"
 			format = right
@@ -204,7 +204,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="war_support"
-			position = { x= 346 y = 9 }
+			position = { x= 348 y = 9 }
 			font = "aldrich_18_outline"
 			text = "100%"
 			format = right

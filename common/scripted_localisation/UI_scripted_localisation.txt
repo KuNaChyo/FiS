@@ -624,22 +624,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionSocialConservative
-	text = {
-		trigger = {
-			NOT = {
-				has_government = social_conservative
-				check_variable = { political_power_ideology = token:social_conservative }
-			}
-			is_in_array = { ROOT.coalition_partners = token:social_conservative }
-		}
-		localization_key = party_pop_coalition_social_conservative
-	}
-	text = {
-		localization_key = ""
-	}
-}
-defined_text = {
 	name = GetCoalitionAuthoritarian
 	text = {
 		trigger = {
@@ -708,12 +692,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = Accelerationism
-				check_variable = { political_power_ideology = token:Accelerationism }
+				has_government = accelerationism
+				check_variable = { political_power_ideology = token:accelerationism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:Accelerationism }
+			is_in_array = { ROOT.coalition_partners = token:accelerationism }
 		}
-		localization_key = party_pop_coalition_Accelerationism
+		localization_key = party_pop_coalition_accelerationism
 	}
 	text = {
 		localization_key = ""
