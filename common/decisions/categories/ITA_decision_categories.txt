@@ -1,0 +1,14 @@
+ITA_urgent_category = {
+	
+	#icon = 
+
+	#picture = 
+	
+	allowed = {
+		original_tag = ITA
+	}
+	
+	visible = {
+		has_completed_focus = ITA_nanse
+	}
+}

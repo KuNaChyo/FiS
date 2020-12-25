@@ -37,9 +37,9 @@
 		select_effect = {
 			add_stability = 0.1
 		}
-		#allow_branch = {
-		#	has_country_flag = ITA_1952
-		#}
+		allow_branch = {
+			has_country_flag = ITA_1952
+		}
 		completion_reward = {
 			add_stability = 0.1
 		}
@@ -62,9 +62,9 @@
 		select_effect = {
 			add_stability = 0.1
 		}
-		#allow_branch = {
-		#	has_country_flag = ITA_1952
-		#}
+		allow_branch = {
+			has_country_flag = ITA_1952
+		}
 		completion_reward = {
 			add_stability = 0.25
 		}
