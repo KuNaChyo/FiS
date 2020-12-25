@@ -1,0 +1,14 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_goal_ERE_way_to_find_baby_brother"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_way_to_find_baby_brother.tga"			
+	}
+    SpriteType = {
+		name = "GFX_goal_ERE_anastasia_s_speech"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_anastasia_s_speech.tga"			
+	}
+    SpriteType = {
+		name = "GFX_goal_ERE_build_the_industry"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_build_the_industry.tga"			
+	}
+}
