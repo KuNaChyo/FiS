@@ -1,0 +1,18 @@
+
+#긴급 결의
+
+ITA_urgent_resolution = {
+	ITA_urgent_resolution = {
+
+	icon = GFX_goal_unknown
+
+	allowed = {
+		original_tag = ITA
+	}
+
+	}
+	available = {
+		has_completed_focus = ITA_nanse
+	}	
+	cost = 50
+}
