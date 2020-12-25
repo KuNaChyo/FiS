@@ -1192,6 +1192,10 @@ HAT = {
     color = rgb { 0 139 70 }
 	color_ui = rgb { 0 139 70 }
 }
+BLK = {
+    color = rgb { 245 143 0 }
+	color_ui = rgb { 245 143 0 }
+}
 ###----- Civil War Colors ------
 
 D01 = {
