@@ -42,6 +42,7 @@
 		}
 		completion_reward = {
 			add_stability = 0.1
+			country_event = { id = ITA.2 }
 		}
 	}
 
@@ -67,5 +68,6 @@
 		}
 		completion_reward = {
 			add_stability = 0.25
+			country_event = { id = ITA.3 }
 		}
 	}

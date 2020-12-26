@@ -6,15 +6,41 @@ add_namespace = ITAU
 country_event = {
 	id = ITA.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ITA.1" }
-	title = ITA.1.t
+	title = ITA.1.t #긴급 결의 통과
 	desc = ITA.1.d
 	#picture = 
 
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { #긴급 결의
+	option = {
 		name = ITA.1.a
 		set_country_flag = ITA_1952
+	}
+
+	id = ITA.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ITA.2" }
+	title = ITA.2.t #연방 의회를 재건하기로 결정하다.
+	desc = ITA.2.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = ITA.2.a
+	}
+
+	id = ITA.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ITA.3" }
+	title = ITA.3.t #우리를 이끌 지도자를 찾기로 하다.
+	desc = ITA.3.d
+	#picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = ITA.3.a
 	}
 }
