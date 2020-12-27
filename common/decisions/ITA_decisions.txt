@@ -1,0 +1,25 @@
+
+#긴급 결의
+
+ITA_urgent_category = {
+
+	ITA_urgent_resolution = {
+
+		icon = GFX_goal_unknown
+
+		allowed = {
+		original_tag = ITA
+		}
+
+		available = {
+		has_completed_focus = ITA_nanse
+		}
+
+	cost = 50
+	fire_only_once = yes
+
+	remove_effect = {
+		country_event = { id = ITA.1 }
+		}
+	}
+}
