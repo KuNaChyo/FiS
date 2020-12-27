@@ -308,6 +308,7 @@ defined_text = {
 		localization_key = burgundian_system_topbar_tooltip
 	}
 }
+
 defined_text = {
 	name = GetPopularityTooltipDesc
 	text = {

@@ -43,6 +43,8 @@ add_ideas = {
 	ERE_GOD_SAVE_OUR_QUEEN_IDEAS
 }
 
+set_country_flag = ERE_romanov_kingdom
+
 create_country_leader = {
 	name = "Anastasia Romanova"
 	desc = "POLITICS_ANASTASIA_DESC"
