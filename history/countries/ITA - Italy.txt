@@ -10,7 +10,7 @@ set_convoys = 60
 
 #정치
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = nationalism
 	last_election = "1936.12.12"
 	election_frequency = 60
 	elections_allowed = no
@@ -23,7 +23,7 @@ set_popularities = {
 	communism = 0 
 	blackdancism = 0 
 	liberal_socialism = 0 
-	anarchism = 100
+	anarchism = 0 
 	social_democrat = 0 
 	social_liberal = 0 
 	liberal_democrat = 0 
@@ -47,9 +47,9 @@ add_ideas = {
 
 #국가 지도자
 create_country_leader = {
-	name = "이탈리아 연방 의회"
+	name = ""
 	desc = ""
-	picture = "gfx/leaders/"
-	expire = "2000.12.01"
-	ideology = anarchism
+	picture = ""
+	expire = ""
+	ideology = 
 }

@@ -4,7 +4,7 @@ state={
 	name="STATE_802"
 
 	history={
-		owner = BLK
+		owner = BEL
 		victory_points = {
 			3488 2 
 		}
@@ -12,8 +12,16 @@ state={
 			infrastructure = 4
 
 		}
-		add_core_of = BLK
 		add_core_of = BEL
+		1940.5.10 = {
+			controller = GER
+
+		}
+		1946.1.1 = {
+			controller = BEL
+
+		}
+
 	}
 
 	provinces={

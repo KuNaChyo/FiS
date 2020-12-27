@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = BLK
+		owner = BEL
 		victory_points = {
 			6598 30 
 		}
@@ -32,7 +32,21 @@ state={
 
 		}
 		add_core_of = BEL
-		add_core_of = BLK
+		1940.5.10 = {
+			GER = {
+				set_province_controller = 9574
+
+			}
+
+		}
+		1941.6.22 = {
+			controller = GER
+
+		}
+		1945.1.1 = {
+			controller = BEL
+
+		}
 
 	}
 	

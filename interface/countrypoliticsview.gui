@@ -402,7 +402,7 @@ guiTypes = {
 			#instantTextboxType = {
 			#	name = "party"
 			#	position = { x = 9 y = 2 }
-			#	font = "aldrich_20_outline"
+			#	font = "hoi_18mbs"
 			#	text = "party name"
 			#	maxWidth = 300
 			#	maxHeight = 20
@@ -420,7 +420,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "elections"
 				position = { x = -5000	y = 42 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -430,7 +430,7 @@ guiTypes = {
 				name = "faction_name"
 				#position = { x = 103 y = -45 }
 				position = { x = 55 y = 161 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 194
 				maxHeight = 20
@@ -442,7 +442,7 @@ guiTypes = {
 				position = { x = 255 = 156 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				pdx_tooltip = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-				#buttonFont = "aldrich_18_outline"
+				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 			}	
 		}
@@ -461,7 +461,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_autonomy_name"
 				position = { x = 95 y = 8 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "autonomy"
 				maxWidth = 193
 				maxHeight = 20		
@@ -541,7 +541,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -2 }
-				font = "bomb_18"
+				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
@@ -593,7 +593,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 15 y = 273 }
+			position = { x = 10 y = 273 }
 			font = "Bomb_18"
 			text = "leader_name"
 			maxWidth = 155
@@ -636,7 +636,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "focus_cost"
 				position = { x = 132 y = 60 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "3"
 				maxWidth = 35
 				maxHeight = 20
@@ -1000,7 +1000,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 135 y = -10 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			text = "sub category"
 			maxWidth = 220
 			maxHeight = 20
@@ -1010,7 +1010,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "limit"
 			position = { x = 250 y = -10 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "IDEA_SUB_CATEGORY_LIMIT"
 			maxWidth = 200
 			maxHeight = 20
@@ -1308,7 +1308,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "score"
 			position = { x = -5000 y = -5000 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "score"
 			maxWidth = 60
 			maxHeight = 18
@@ -1316,7 +1316,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -5000 y = -5000 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 170
@@ -1395,7 +1395,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -40 y = 7 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -1443,7 +1443,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "exile_country_name"
 			position = { x = 107 y = 10 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 150
 			maxHeight = 20
@@ -1465,7 +1465,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "manpower_text"
 				position = { x = 40 y = 7 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 200
 				maxHeight = 20
@@ -1550,14 +1550,14 @@ guiTypes = {
 			position = { x = 6 y = 55}
 			quadTextureSprite ="GFX_government_in_exile_reinstate_button_bg"
 			Orientation = UPPER_LEFT
-			buttonFont = "aldrich_20_outline"
+			buttonFont = "hoi_18mbs"
 			buttonText = "REINSTATE_EXILE"
 		}
 
 		instantTextboxType = {
 			name = "occupier_text"
 			position = { x = -340 y = -25 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
 			maxHeight = 5
@@ -1619,7 +1619,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -37 y = 6 }
 			quadTextureSprite ="GFX_tno_close_button"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -1751,7 +1751,7 @@ guiTypes = {
 			name = "occupation_policy"
 			position = { x= 0 y = 0 }
 			quadTextureSprite ="GFX_occupation_policy_button"
-			buttonFont = "aldrich_20_outline"
+			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_RIGHT"
 		}
 
@@ -1823,7 +1823,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -35 y = 8 }
 			quadTextureSprite ="GFX_tno_close_button"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -1979,7 +1979,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 357 y = 295 }
+			position = { x= 357 y = 305 }
 			size = { width=400 height=400 }
 			clipping = no
 
@@ -2013,7 +2013,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "header"
 				position = { x = 35 y = 8 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				text = "COUNTRY_VIEW_LEGITIMACY_HEADER"
 				maxWidth = 80
 				maxHeight = 20
@@ -2056,6 +2056,16 @@ guiTypes = {
 			#	maxWidth = 300
 			#	maxHeight = 20
 			#}
+			instantTextboxType = {
+				name = "party_name"
+				position = {x=152 y=-17}
+				font = "aldrich_20_outline"
+				text = "[This.GetRulingParty]"
+				fixedsize = yes
+				maxWidth = 160
+				maxHeight = 20
+				format = left
+			}
 			
 			instantTextboxType = {
 				name = "ideology"
@@ -2078,7 +2088,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 55 y = 11 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 194
 				maxHeight = 20
@@ -2090,12 +2100,13 @@ guiTypes = {
 				position = { x = 255 y = 6 }
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				pdx_tooltip = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-				#buttonFont = "aldrich_18_outline"
+				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
 			}	
 			
 			
 		}
+		
 		
 		
 		containerWindowType = {
@@ -2112,7 +2123,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_autonomy_name"
 				position = { x = 95 y = 8 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "autonomy"
 				maxWidth = 193
 				maxHeight = 20		
@@ -2217,7 +2228,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "focus_cost"
 				position = { x = 132 y = 60 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				text = "3"
 				maxWidth = 35
 				maxHeight = 20
@@ -2296,7 +2307,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -2 }
-				font = "aldrich_18_outline"
+				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
@@ -2334,21 +2345,21 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 14 y = 55 }
+			position = { x = 9 y = 55 }
 			spriteType = "GFX_leader_unknown"
 		}
 
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 7 y = 45 }
+			position = { x = 1 y = 45 }
 			allwaystransparent = yes
 		}
 
 		
 		instantTextboxType = {
 			name = "leader_name"
-			position = { x = 16 y = 271 }
+			position = { x = 10 y = 273 }
 			font = "Bomb_18"
 			text = "leader_name"
 			maxWidth = 155
@@ -2421,14 +2432,14 @@ guiTypes = {
 			name = "manage_occupied_button"
 			position = { x = 10 y = 492 }
 			quadTextureSprite = "GFX_government_button"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
 			position = { x = 48 y = 499 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
 			alwaystransparent = yes
@@ -2442,14 +2453,14 @@ guiTypes = {
 				name = "show_subjects_button"
 				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_government_button"
-				buttonFont = "aldrich_18_outline"
+				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
 			}
 
 			instantTextboxType = {
 				name = "show_subjects_button_text"
 				position = { x = 0 y = 8 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
@@ -2468,7 +2479,7 @@ guiTypes = {
 			name = "show_exiles_collaborations_button"
 			position = { x = 190 y = 492 }
 			quadTextureSprite = "GFX_government_button"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 			format = right
 		}
@@ -2476,7 +2487,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
 			position = { x = 223 y = 499 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
 			fixedsize = yes
@@ -2645,7 +2656,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 135 y = -10 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			text = "sub category"
 			maxWidth = 220
 			maxHeight = 20
@@ -2655,7 +2666,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "limit"
 			position = { x = 250 y = -10 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "IDEA_SUB_CATEGORY_LIMIT"
 			maxWidth = 200
 			maxHeight = 20
@@ -2741,7 +2752,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = 10 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				fixedsize = yes			
 				text = ""
 				maxWidth = 150
@@ -2753,7 +2764,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 28 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = ""
 				maxWidth = 140
@@ -2766,7 +2777,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 18 y = 68 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2777,7 +2788,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2823,7 +2834,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "name"
 				position = { x = 0 y = -13 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				fixedsize = yes			
 				text = ""
 				maxWidth = 160
@@ -2836,7 +2847,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "traits"
 				position = { x = 0 y = 10 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = "name"
 				maxWidth = 160
@@ -2849,7 +2860,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "cost"
 			position = { x = 200 y = 32 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2860,7 +2871,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "stats"
 			position = { x = 300 y = 32 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
@@ -2892,7 +2903,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "score"
 			position = { x = -5000 y = -5000 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "score"
 			maxWidth = 60
 			maxHeight = 18
@@ -2900,7 +2911,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = -5000 y = -5000 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 170
@@ -2935,7 +2946,7 @@ guiTypes = {
 				name = "close_button"
 				position = { x = -42 y = 5 }
 				quadTextureSprite ="GFX_closebutton"
-				buttonFont = "aldrich_18_outline"
+				buttonFont = "hoi_16mbs"
 				shortcut = "ESCAPE"
 				Orientation = "UPPER_RIGHT"
 				clicksound = click_close
@@ -2995,7 +3006,7 @@ guiTypes = {
 			name = "release"
 			position = { x = 323 y = 36 }
 			quadTextureSprite = "GFX_sort_button_171x35"
-			buttonFont = "aldrich_20_outline"
+			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_LEFT"
 			buttonText = "RELEASE"
 			}
@@ -3018,7 +3029,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "occupied_country_name"
 			position = { x = 100 y = 24 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 200
 			maxHeight = 20
@@ -3028,7 +3039,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "occupied_country_cost"
 			position = { x = 100 y = 40 }
-			font = "aldrich_18_outline"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 200
 			maxHeight = 20
@@ -3066,7 +3077,7 @@ guiTypes = {
 			name = "occupation_policy"
 			position = { x= 0 y = 0 }
 			quadTextureSprite ="GFX_occupation_policy_button"
-			buttonFont = "aldrich_20_outline"
+			buttonFont = "hoi_18mbs"
 			Orientation = "UPPER_RIGHT"
 		}
 		
@@ -3142,7 +3153,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -40 y = 7 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -3192,7 +3203,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "autonomy_country_name"
 			position = { x = 100 y = 40 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 200
 			maxHeight = 20
@@ -3209,7 +3220,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "current_autonomy_name"
 				position = { x = -130 y = -8 }
-				font = "aldrich_18_outline"
+				font = "hoi_16mbs"
 				text = "autonomy"
 				maxWidth = 158
 				maxHeight = 20
@@ -3325,7 +3336,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -40 y = 7 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "aldrich_18_outline"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -3374,7 +3385,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "country_name"
 			position = { x = 107 y = 10 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 150
 			maxHeight = 20
@@ -3393,7 +3404,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "surrender_text"
 			position = { x= 127 y = 33 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 150
 			maxHeight = 20
@@ -3453,7 +3464,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "exile_country_name"
 			position = { x = 107 y = 10 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 150
 			maxHeight = 20
@@ -3475,7 +3486,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "manpower_text"
 				position = { x = 40 y = 7 }
-				font = "aldrich_20_outline"
+				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 200
 				maxHeight = 20
@@ -3560,14 +3571,14 @@ guiTypes = {
 			position = { x = 6 y = 55}
 			quadTextureSprite ="GFX_government_in_exile_reinstate_button_bg"
 			Orientation = UPPER_LEFT
-	 		buttonFont = "aldrich_20_outline"
+	 		buttonFont = "hoi_18mbs"
 			buttonText = "REINSTATE_EXILE"
 		}
 
 		instantTextboxType = {
 			name = "occupier_text"
 			position = { x = -340 y = -25 }
-			font = "aldrich_20_outline"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 180
 			maxHeight = 5

@@ -4,50 +4,33 @@ ideas = {
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_public_safety_collapse"}
             picture = ITA_public_safety_collapse
             modifier = {
-				stability_factor = -0.5
-				war_support_factor = -1
-				political_power_gain = -1
-				research_speed_factor = -0.5
+                stability_factor = -0.75
 				}
 			}
 		ITA_divided_politics = { #분열된 정치
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_divided_politics"}
             picture = ITA_divided_politics
             modifier = {
-				stability_factor = -0.25
-				political_power_gain = -1
-				research_speed_factor = -0.25
+                political_power_gain = -3
 				}
 			}
 		ITA_powerful_papal_States = { #강대한 교황령
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_powerful_papal_States"}
             picture = ITA_powerful_papal_States
             modifier = {
-				political_power_gain = -1
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1 
-				army_org_factor = -0.2
+                political_power_gain = -1
 				}
 			}
 		ITA_extreme_poverty = { #극심한 빈곤
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_extreme_poverty"}
             picture = ITA_extreme_poverty
             modifier = {
-				political_power_gain = -1
-				industrial_capacity_factory = -0.75
-				industrial_capacity_dockyard = -0.75
-				local_resources_factor = -0.75
-				conscription_factor = -0.75
-				research_speed_factor = -0.5
 				}
 			}
 		ITA_religion_all_over = { #종교 난립
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_religion_all_over"}
             picture = ITA_religion_all_over
             modifier = {
-				political_power_gain = -1
-				stability_factor = -0.25
-				research_speed_factor = -1
 				}
 			}
 		}

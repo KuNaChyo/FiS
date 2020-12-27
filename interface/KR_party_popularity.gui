@@ -2,12 +2,12 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "party_popularity_number_container"
-		position = { x = 196 y = 5 }
+		position = { x = 176 y = 5 }
 		
 		instantTextBoxType = {
 			name ="party_pop_text"
-			position = { x= 5 y = 4 }
-			font = "aldrich_18_outline"
+			position = { x= 3 y = 4 }
+			font = "hoi_18mbs"
 			text = "[Root.GetPopularityPercent]"
 			format = right
 			maxWidth = 60
