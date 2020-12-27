@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"USA"={
-			history = "USA_desc"
+			history = "USA_1952_desc"
 			ideology = conservatism
 			ideas = {
 			}
@@ -17,7 +17,7 @@ bookmarks = {
 			}
 		}
 		"NCR"={
-			history = "NCR_desc"
+			history = "NCR_1952_desc"
 			ideology = liberal_democrat
 			ideas = {
 			}
@@ -27,7 +27,7 @@ bookmarks = {
 		}
 		
 		"CAN"={
-			history = "CAN_desc"
+			history = "CAN_1952_desc"
 			ideology = conservatism
 			ideas = {
 			}

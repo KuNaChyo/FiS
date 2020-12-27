@@ -1,0 +1,1404 @@
+########################################
+# Ideology Plurality effects
+# by ~mw~
+########################################
+
+jucheism_plurality = {
+
+	OR = {
+		jucheism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@jucheism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+authoritarian_communism_plurality = {
+
+	OR = {
+		authoritarian_communism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_communism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+communism_plurality = {
+
+	OR = {
+		communism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@communism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+blackdancism_plurality = {
+
+	OR = {
+		blackdancism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@blackdancism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+liberal_socialism_plurality = {
+
+	OR = {
+		liberal_socialism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_socialism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+anarchism_plurality = {
+
+	OR = {
+		anarchism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@anarchism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+social_democrat_plurality = {
+
+	OR = {
+		social_democrat > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+social_liberal_plurality = {
+
+	OR = {
+		social_liberal > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_liberal
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+liberal_democrat_plurality = {
+
+	OR = {
+		liberal_democrat > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal_democrat
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+conservatism_plurality = {
+
+	OR = {
+		conservatism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservatism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+authoritarian_plurality = {
+
+	OR = {
+		authoritarian > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@authoritarian_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+nationalism_plurality = {
+
+	OR = {
+		nationalism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@nationalism_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@nationalism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+corporatocrat_plurality = {
+
+	OR = {
+		corporatocrat > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@corporatocrat_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@corporatocrat
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+fascism_plurality = {
+
+	OR = {
+		fascism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@fascism_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@fascism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+accelerationism_plurality = {
+
+	OR = {
+		accelerationism > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@accelerationism_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@accelerationism
+				value = ROOT.party_popularity@burgundian_system
+				compare = greater_than
+			}
+		}
+	}
+}
+
+burgundian_system_plurality = {
+
+	OR = {
+		burgundian_system > 0.5
+
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@jucheism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@burgundian_system_communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@communism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@blackdancism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@liberal_socialism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@anarchism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@social_liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@liberal_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@conservatism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@authoritarian
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@nationalism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@corporatocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@fascism
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@burgundian_system
+				value = ROOT.party_popularity@accelerationism
+				compare = greater_than
+			}
+		}
+	}
+}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = LUX
+		owner = BLK
 		victory_points = {
 			6583 5 
 		}
@@ -18,14 +18,9 @@ state={
 
 		}
 		add_core_of = LUX
-		1941.6.22 = {
-			controller = GER
-
-		}
-		1945.1.1 = {
-			controller = LUX
-
-		}
+		add_core_of = BEL
+		add_core_of = BLK
+		
 
 	}
 
