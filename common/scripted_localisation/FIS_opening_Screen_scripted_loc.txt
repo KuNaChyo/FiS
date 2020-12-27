@@ -5,6 +5,21 @@ defined_text = {
 		trigger = { tag = FRA }
 		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_FRA
 	}
+	##브리튼 연방
+	text = {
+		trigger = { tag = ENG }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_ENG
+	}
+	##독일
+	text = {
+		trigger = { tag = GER }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_GER
+	}
+	##신성 브리타니아
+	text = {
+		trigger = { tag = CAN }
+		localization_key = TNO_OPENING_SCREEN_BUTTON_TEXT_CAN
+	}
 	##하와이
 	text = {
 		trigger = { tag = GAK }
@@ -140,6 +155,54 @@ defined_text = { #프랑스
 	}
 }
 
+defined_text = { #독일
+	name = GET_COUNTRY_INFO_PAGE_TEXT_GER
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_GER
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_GER
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_GER
+	}
+}
+
+defined_text = { #브리튼 연방
+	name = GET_COUNTRY_INFO_PAGE_TEXT_ENG
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_ENG
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_ENG
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_ENG
+	}
+}
+
+defined_text = { #신성 브리타니아
+	name = GET_COUNTRY_INFO_PAGE_TEXT_CAN
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 0 } }
+		localization_key = COUNTRY_INFO_1_CAN
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 1 } }
+		localization_key = COUNTRY_INFO_2_CAN
+	}
+	text = {
+		trigger = { check_variable = { COUNTRY_INFO_PAGE = 2 } }
+		localization_key = COUNTRY_INFO_3_CAN
+	}
+}
+
 defined_text = { #타보리츠키
 	name = GET_COUNTRY_INFO_PAGE_TEXT_RUS
 	text = {
@@ -244,6 +307,18 @@ defined_text = {
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_FRA]"
 	}
 	text = {
+		trigger = { tag = ENG }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_ENG]"
+	}
+	text = {
+		trigger = { tag = GER }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GER]"
+	}
+	text = {
+		trigger = { tag = CAN }
+		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_CAN]"
+	}
+	text = {
 		trigger = { tag = GAK }
 		localization_key = "[GET_COUNTRY_INFO_PAGE_TEXT_GAK]"
 	}
@@ -326,6 +401,18 @@ defined_text = {
 	text = {
 		trigger = { tag = FRA }
 		localization_key = "GFX_TNO_OpeningScreen_Poster_France"
+	}
+	text = {
+		trigger = { tag = ENG }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Britain"
+	}
+	text = {
+		trigger = { tag = CAN }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Canada"
+	}
+	text = {
+		trigger = { tag = GER }
+		localization_key = "GFX_TNO_OpeningScreen_Poster_Germany"
 	}
 	text = {
 		trigger = { tag = RUS }

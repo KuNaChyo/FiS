@@ -14,6 +14,21 @@ spriteTypes = {
 		name = "GFX_TNO_OpeningScreen_Poster_France"
 		textureFile = "gfx/interface/opening_screen/poster/FIS_FRA_OPENING_POSTER.tga"
 	}
+	#ENG
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Britain"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_ENG_OPENING_POSTER.tga"
+	}
+	#CAN
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Canada"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_CAN_OPENING_POSTER.tga"
+	}
+	#GER
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_Germany"
+		textureFile = "gfx/interface/opening_screen/poster/FIS_GER_OPENING_POSTER.tga"
+	}
 	#RUS
 	spriteType = {
 		name = "GFX_TABORITSKYORDER_OpeningSCreen_Poster_Russia"
