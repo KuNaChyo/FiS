@@ -1,7 +1,7 @@
 
 #일반 이벤트
 
-add_namespace = ITAU
+add_namespace = ITA
 
 country_event = {
 	id = ITA.1
@@ -14,10 +14,13 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = ITA.1.a
 		set_country_flag = ITA_1952
+		ITA_reload_tree = yes
+		name = ITA.1.a
 	}
+}
 
+country_event = {
 	id = ITA.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ITA.2" }
 	title = ITA.2.t #연방 의회를 재건하기로 결정하다.
@@ -30,7 +33,9 @@ country_event = {
 	option = { #
 		name = ITA.2.a
 	}
+}
 
+country_event = {
 	id = ITA.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ITA.3" }
 	title = ITA.3.t #우리를 이끌 지도자를 찾기로 하다.

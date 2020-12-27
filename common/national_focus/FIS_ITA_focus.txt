@@ -1,5 +1,6 @@
+#스타팅
 focus_tree = {
-	id = FIS_ITA
+	id = FIS_ITA_starting
 	country = {
 		factor = 0
 		modifier = {
@@ -13,15 +14,44 @@ focus_tree = {
 }
 
 focus_tree = {
-	id = FIS_ITA_swap
+	id = FIS_ITA_starting_swap
 	country = {
 		factor = 0
 		modifier = {
-			add = 9
+			add = 5
 			tag = ITA
 		}
 	}
 	default = no
 	continuous_focus_position = { x = 30 y = 4000 } 
 	shared_focus = ITA_nanse
+}
+
+#초인은 없고
+focus_tree = {
+	id = FIS_ITA_overman
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 4000 } 
+	shared_focus = ITA_coineun_eobsgo
+}
+
+focus_tree = {
+	id = FIS_ITA_overman_swap
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = ITA
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 4000 } 
+	shared_focus = ITA_coineun_eobsgo
 }

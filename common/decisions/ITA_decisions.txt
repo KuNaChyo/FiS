@@ -1,9 +1,7 @@
 
-#긴급 결의
+ITA_urgent_category = { #이탈리아 연방 의회 안건
 
-ITA_urgent_category = {
-
-	ITA_urgent_resolution = {
+	ITA_urgent_resolution = { #긴급 결의
 
 		icon = GFX_goal_unknown
 
@@ -20,6 +18,31 @@ ITA_urgent_category = {
 
 	remove_effect = {
 		country_event = { id = ITA.1 }
+		}
+	}
+
+	ITA_federal_collapse = { #이탈리아 연방의 붕괴
+
+		icon = GFX_goal_unknown
+
+		allowed = {
+		original_tag = ITA
+		}
+
+		available = {
+		has_stability > -0.7
+		}
+
+	fire_only_once = yes
+		
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 60
+		timeout_effect = {
+			#start_civil_war = 
+		}
+		complete_effect = {
+			#add_political_power = 50
 		}
 	}
 }

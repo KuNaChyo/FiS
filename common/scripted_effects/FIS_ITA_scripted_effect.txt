@@ -1,12 +1,25 @@
 ITA_reload_tree = {
 	hidden_effect = {
 		if = {
-			limit = { has_focus_tree = FIS_ITA_swap }
-			load_focus_tree = { tree = FIS_ITA keep_completed = yes }
+			limit = { has_focus_tree = FIS_ITA_starting_swap }
+			load_focus_tree = { tree = FIS_ITA_starting keep_completed = yes }
 		}
 		else_if = {
-			limit = { has_focus_tree = FIS_ITA }
-			load_focus_tree = { tree = FIS_ITA_swap keep_completed = yes }
+			limit = { has_focus_tree = FIS_ITA_starting }
+			load_focus_tree = { tree = FIS_ITA_starting_swap keep_completed = yes }
+		}
+	}
+}
+
+ITA_overman_tree = {
+	hidden_effect = {
+		if = {
+			limit = { has_focus_tree = FIS_ITA_overman_swap }
+			load_focus_tree = { tree = FIS_ITA_overman keep_completed = yes }
+		}
+		else_if = {
+			limit = { has_focus_tree = FIS_ITA_overman }
+			load_focus_tree = { tree = FIS_ITA_overman_swap keep_completed = yes }
 		}
 	}
 }

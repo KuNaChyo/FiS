@@ -51,5 +51,5 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/"
 	expire = "2000.12.01"
-	ideology = anarchism
+	ideology = anarchism_subtype
 }
