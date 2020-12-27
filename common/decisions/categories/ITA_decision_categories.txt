@@ -9,6 +9,6 @@ ITA_urgent_category = {
 	}
 	
 	visible = {
-		has_completed_focus = ITA_nanse
+		has_completed_focus = ITA_turbulent_period
 	}
 }

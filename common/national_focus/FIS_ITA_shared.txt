@@ -1,6 +1,6 @@
 	#난세
 	shared_focus = {
-		id = ITA_nanse
+		id = ITA_turbulent_period
 		icon = GFX_goal_unknown
 		x = 8
 		y = 1
@@ -11,6 +11,9 @@
 		ai_will_do = {
 			factor = 100
 		}
+		allow_branch = {
+			has_country_flag = ITA_starting
+		}
 		completion_reward = {
 			add_political_power = 100
 		}
@@ -18,18 +21,19 @@
 
 	#이탈리아 연방 의회 재건
 	shared_focus = {
-		id = ITA_italria_yeonbang_yihoe_jaegeon
+		id = ITA_parliamentary_reconstruction
 		icon = GFX_goal_unknown
-		x = 5
-		y = 2
+		x = -3
+		y = 1
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
 		prerequisite = {
-			focus = ITA_nanse
+			focus = ITA_turbulent_period
 		}
-		mutually_exclusive = { focus = ITA_widaehan_coin
+		relative_position_id = ITA_turbulent_period
+		mutually_exclusive = { focus = ITA_great_ubermensch
 		}
 		ai_will_do = { factor = 50
 		}
@@ -48,16 +52,17 @@
 	#위대한 초인
 	shared_focus = {
 		cost = 1
-		id = ITA_widaehan_coin
+		id = ITA_great_ubermensch
 		icon = GFX_goal_unknown
-		x = 11
-		y = 2
+		x = 3
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = {focus = ITA_nanse
+		relative_position_id = ITA_turbulent_period
+		prerequisite = {focus = ITA_turbulent_period
 		}
-		mutually_exclusive = { focus = ITA_italria_yeonbang_yihoe_jaegeon
+		mutually_exclusive = { focus = ITA_parliamentary_reconstruction
 		}
 		ai_will_do = {factor = 50
 		}
@@ -76,74 +81,83 @@
 	#계엄령
 	shared_focus = {
 		cost = 1
-		id = ITA_gyeeomryeong
+		id = ITA_declare
 		icon = GFX_goal_unknown
-		x = 4
-		y = 3
+		x = 1
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = ITA_italria_yeonbang_yihoe_jaegeon  }
-		mutually_exclusive = { focus = ITA_jeongdang_jeongci  }
+		relative_position_id = ITA_parliamentary_reconstruction
+		prerequisite = { focus = ITA_parliamentary_reconstruction  }
+		mutually_exclusive = { focus = ITA_party_politics  }
 	}
 
 	#정당 정치
 	shared_focus = {
 		cost = 1
-		id = ITA_jeongdang_jeongci
+		id = ITA_party_politics
 		icon = GFX_goal_unknown
-		x = 6
-		y = 3
+		x = -1
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = ITA_italria_yeonbang_yihoe_jaegeon  }
+		relative_position_id = ITA_parliamentary_reconstruction
+		prerequisite = { focus = ITA_parliamentary_reconstruction  }
 	}
 
 	#초인은 없고
 	shared_focus = {
 		cost = 1
-		id = ITA_coineun_eobsgo
+		id = ITA_no_ubermensch
 		icon = GFX_goal_unknown
-		x = 9
-		y = 3
+		x = -2
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = ITA_widaehan_coin  }
-		mutually_exclusive = { focus = ITA_coineun_eobsgo  focus = ITA_mesia  }
+		relative_position_id = ITA_great_ubermensch
+		prerequisite = { focus = ITA_great_ubermensch  }
+		mutually_exclusive = { focus = ITA_no_ubermensch  focus = ITA_messiah  }
 		completion_reward = {
-			set_country_flag = ITA_overman
+			country_event = { id = ITA.4 }
 		}
 	}
 
 	#우리들의 초인
 	shared_focus = {
 		cost = 1
-		id = ITA_urideulyi_coin
+		id = ITA_our_ubermensch
 		icon = GFX_goal_unknown
-		x = 13
-		y = 3
+		x = 2
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = ITA_widaehan_coin  }
-		mutually_exclusive = { focus = ITA_coineun_eobsgo  focus = ITA_mesia  }
+		relative_position_id = ITA_great_ubermensch
+		prerequisite = { focus = ITA_great_ubermensch  }
+		mutually_exclusive = { focus = ITA_no_ubermensch  focus = ITA_messiah  }
+		completion_reward = {
+		}
 	}
 
 
 	#메시아
 	shared_focus = {
 		cost = 1
-		id = ITA_mesia
+		id = ITA_messiah
 		icon = GFX_goal_unknown
-		x = 11
-		y = 3
+		x = 0
+		y = 1
 		search_filters = {
 			FOCUS_FILTER_STABILITY
 		}
-		prerequisite = { focus = ITA_widaehan_coin  }
-		mutually_exclusive = { focus = ITA_coineun_eobsgo  focus = ITA_urideulyi_coin  }
+		relative_position_id = ITA_great_ubermensch
+		prerequisite = { focus = ITA_great_ubermensch  }
+		mutually_exclusive = { focus = ITA_no_ubermensch  focus = ITA_our_ubermensch  }
+		completion_reward = {
+		}
 	}
 
 	#아노미
@@ -159,6 +173,26 @@
 		allow_branch = {
 			has_country_flag = ITA_overman
 		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 1
+		}
+	
+	}
+
+	#이탈리아 연방의 위기
+	shared_focus = {
+		id = ITA_crisis
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ITA_anomie }
 		ai_will_do = {
 			factor = 100
 		}

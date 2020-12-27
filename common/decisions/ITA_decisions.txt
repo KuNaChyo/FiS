@@ -10,7 +10,7 @@ ITA_urgent_category = { #이탈리아 연방 의회 안건
 		}
 
 		available = {
-		has_completed_focus = ITA_nanse
+		has_completed_focus = ITA_turbulent_period
 		}
 
 	cost = 50

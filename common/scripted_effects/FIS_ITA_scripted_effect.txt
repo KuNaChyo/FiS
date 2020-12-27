@@ -10,16 +10,3 @@ ITA_reload_tree = {
 		}
 	}
 }
-
-ITA_overman_tree = {
-	hidden_effect = {
-		if = {
-			limit = { has_focus_tree = FIS_ITA_overman_swap }
-			load_focus_tree = { tree = FIS_ITA_overman keep_completed = yes }
-		}
-		else_if = {
-			limit = { has_focus_tree = FIS_ITA_overman }
-			load_focus_tree = { tree = FIS_ITA_overman_swap keep_completed = yes }
-		}
-	}
-}

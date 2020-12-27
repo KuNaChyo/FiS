@@ -53,3 +53,7 @@ create_country_leader = {
 	expire = "2000.12.01"
 	ideology = anarchism_subtype
 }
+
+#스타팅 플래그
+set_country_flag = ITA_starting
+ITA_reload_tree = yes

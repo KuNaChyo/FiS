@@ -3,7 +3,7 @@
 #국민정신
 
  ITA_public_safety_collapse:0 "치안 붕괴"
- ITA_public_safety_collapse_desc:0 "이탈리아 연방은 완전히 치안 붕괴 상태에 빠져있습니다. 경찰력은 제대로 작동하지 못하며, 거리에선 빈번하게 강도살인이 벌어지고 있는 실정입니다. 급기야 마피아들이 정부기관에도 들이닥쳐 공무원을 살해하기 일쑤입니다.\n\n§R이탈리아 연방에서 안전한 곳은 그 어디에도 없습니다.§!"
+ ITA_public_safety_collapse_desc:0 "이탈리아 연방은 완전히 치안 붕괴 상태에 빠져있습니다. 경찰력은 제대로 작동하지 못하며, 거리에선 빈번하게 강도살인과 범죄조직 간의 항쟁들이 벌어지고 있는 상황입니다. 급기야 마피아들이 정부기관과 군부대에도 들이닥쳐 교전을 벌이기 일쑤입니다.\n\n§R이탈리아 연방에서 안전한 곳은 그 어디에도 없습니다.§!"
  ITA_divided_politics:0 "분열된 정치"
  ITA_divided_politics_desc:0 "마피아와 유착한 정치인 보복이 두려워 아무 것도 하지 못하는 정치인. 교황령의 입김이 닿은 정치인. 그밖에도 수많은 이들이 엮여있는 마경이 이 곳, 이탈리아 연방입니다.\n\n§R이탈리아 연방이 붕괴하는 것은 이제 시간 문제일 뿐입니다.§!"
  ITA_powerful_papal_States:0 "강대한 교황령"
@@ -15,22 +15,26 @@
 
 #포커스
 
- ITA_nanse:0 "난세"
- ITA_nanse_desc:0 "이탈리아 연방은 지금 몹시 혼란스럽습니다.\n그러나 이런 시기에는 반드시 위대한 지도자가 나타나거나 합니다.\n\n아니면 우리 스스로 할 수 있을지도 모릅니다."
- ITA_italria_yeonbang_yihoe_jaegeon:0 "이탈리아 연방 의회 재건"
- ITA_italria_yeonbang_yihoe_jaegeon_desc:0 "우리는 우리의 운명을 스스로 결정하기로 했습니다.\n이탈리아 연방의 운명을 초인에게도, 그 다른 누구에게도 맡기지 않고 스스로의 힘으로 나아갈 것입니다.\n\n이탈리아 연방 의회의 재건은 지금부터 시작입니다."
- ITA_widaehan_coin:0 "위대한 초인"
- ITA_widaehan_coin_desc:0 "이탈리아 연방의 상황은 우리들의 힘으로 해결이 불가능하다는 것을 인정해야 합니다.\n그렇다면 이제 우리들은 이탈리아 연방을 위할 초인을 찾는 수밖에 없습니다."
- ITA_gyeeomryeong:0 "계엄령"
- ITA_gyeeomryeong_desc:0 "ㅇㅇ"
- ITA_jeongdang_jeongci:0 "정당 정치"
- ITA_jeongdang_jeongci_desc:0 "ㅇㅇ"
- ITA_coineun_eobsgo:0 "초인은 없고"
- ITA_coineun_eobsgo_desc:0 "ㅇㅇ"
- ITA_urideulyi_coin:0 "우리들의 초인"
- ITA_urideulyi_coin_desc:0 "ㅇㅇ"
- ITA_mesia:0 "메시아"
- ITA_mesia_desc:0 "ㅇㅇ"
+ ITA_turbulent_period:0 "난세"
+ ITA_turbulent_period_desc:0 "이탈리아 연방은 지금 몹시 혼란스럽습니다.\n그러나 이런 시기에는 반드시 위대한 지도자가 나타나거나 합니다.\n\n아니면 우리 스스로 할 수 있을지도 모릅니다."
+ ITA_parliamentary_reconstruction:0 "이탈리아 연방 의회 재건"
+ ITA_parliamentary_reconstruction_desc:0 "우리는 우리의 운명을 스스로 결정하기로 했습니다.\n이탈리아 연방의 운명을 초인에게도, 그 다른 누구에게도 맡기지 않고 스스로의 힘으로 나아갈 것입니다.\n\n이탈리아 연방 의회의 재건은 지금부터 시작입니다."
+ ITA_great_ubermensch:0 "위대한 초인"
+ ITA_great_ubermensch_desc:0 "이탈리아 연방의 상황은 우리들의 힘으로 해결이 불가능하다는 것을 인정해야 합니다.\n그렇다면 이제 우리들은 이탈리아 연방을 위할 초인을 찾는 수밖에 없습니다."
+ ITA_declare:0 "계엄령"
+ ITA_declare_desc:0 "이탈리아 연방의 혼란은 지금의 상황으로썬 손쓸 수 없습니다.\n그렇기에 우리는 계엄령을 선포하여 이탈리아 연방에서 발생하는 혼란을 수습하기로 선언하였습니다. 이 조치로 이탈리아 연방의 혼란을 조금이나마 통제할 수 있을 것입니다."
+ ITA_party_politics:0 "정당 정치"
+ ITA_party_politics_desc:0 "계엄령은 여러 의원들의 반대로 무산되었습니다.\n계엄령에 반대한 의원들은 좀 더 나은 방법이 있을 것이라며, 방법을 강구하자고 하였습니다. \n그렇지만 어떤 방법으로?"
+ ITA_no_ubermensch:0 "초인은 없고"
+ ITA_no_ubermensch_desc:0 "이탈리아 연방에 초인은 없었습니다.\n이탈리아 연방을 이끌어 갈 자가 없다면, 이제 우리는 어떻게 해야 한단 말입니까?"
+ ITA_our_ubermensch:0 "우리들의 초인"
+ ITA_our_ubermensch_desc:0 "이탈리아 연방에는 아직 이 나라를 지키고자 한 초인이 있었습니다. 그의 애국심에 우리 의원들은 존경을 표하며, 그들을 이탈리아 연방의 총리로 투대할 것입니다."
+ ITA_messiah:0 "메시아"
+ ITA_messiah_desc:0 "가라사대, 그 분께서 말하시니 내가 이 나라에 성유를 부으러 왔다 하시더라."
+ ITA_anomie:0 "아노미"
+ IRA_anomie_desc:0 ""
+ ITA_crisis:0 "위기"
+ ITA_crisis_desc:0 ""
 
 #디시전 및 카테고리
  
