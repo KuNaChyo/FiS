@@ -102,6 +102,11 @@ spriteTypes = {
 		name = "GFX_Russia_unification_RUS_tabby"
 		textureFile = "gfx/superevent_pictures/GFX_RUS_tabby_unified.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_supervent_Battle_of_Hoover_Dam"
+		textureFile = "gfx//superevent_pictures//GFX_superevent_hoover_dam.dds"
+	}
 }
 
 	

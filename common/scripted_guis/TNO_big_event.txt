@@ -356,4 +356,27 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	SE_Battle_of_Hoover_Dam = {
+		context_type = player_context
+		window_name = "SE_Battle_of_Hoover_Dam"
+		
+		visible = {
+			has_country_flag = SE_Battle_of_Hoover_Dam_flag
+		}
+	}
+	
+	SE_Battle_of_Hoover_Dam_frame {
+		context_type = player_context
+		window_name = "SE_Battle_of_Hoover_Dam_frame"
+		
+		visible = {
+			has_country_flag = SE_Battle_of_Hoover_Dam_flag
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Battle_of_Hoover_Dam_flag
+			}
+		}
+	}
 }
