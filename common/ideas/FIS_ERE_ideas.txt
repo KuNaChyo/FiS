@@ -19,9 +19,85 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_GOD_SAVE_OUR_QUEEN_IDEAS"}
 			picture = GFX_idea_ERE_GOD_SAVE_OUR_QUEEN_IDEAS
 			modifier = {
-                stability_factor = 0.25
-                war_support_factor = 0.25
                 surrender_limit = 0.5
+                stability_factor = 0.1
+                war_support_factor = 0.1
+			}
+		}
+
+        ERE_uncooperative_locals_ideas = { #비협조적인 원주민
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_GOD_SAVE_OUR_QUEEN_IDEAS"}
+			picture = GFX_idea_ERE_uncooperative_locals_ideas
+			modifier = {
+                stability_factor = -0.1
+                global_building_slots_factor = -0.1
+                production_speed_buildings_factor = -0.1
+			}
+		}
+
+        ERE_harmony_with_indigenous_peoples_ideas = { #토착민과의 조화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_harmony_with_indigenous_peoples_ideas"}
+			picture = GFX_idea_ERE_harmony_with_indigenous_peoples_ideas
+			modifier = {
+                stability_factor = 0.05
+                local_resources_factor = 0.05
+                global_building_slots_factor = 0.1
+                production_speed_buildings_factor = 0.1
+			}
+		}
+
+        ERE_coercive_crackdown_ideas = { #강압적인 진압
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_coercive_crackdown_ideas"}
+			picture = GFX_idea_ERE_coercive_crackdown_ideas
+			modifier = {
+                stability_factor = -0.15
+                local_resources_factor = 0.15
+                global_building_slots_factor = 0.1
+                production_speed_buildings_factor = 0.15
+			}
+		}
+
+        ERE_conversion_ideas_ideas = { #사상 개조
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_conversion_ideas_ideas"}
+			picture = GFX_idea_ERE_conversion_ideas_ideas_IDEAS
+			modifier = {
+                research_speed_factor = 0.1
+			}
+		}
+
+        ERE_Kamchatka_salmon_ideas = { #사상 개조
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Kamchatka_salmon_ideas"}
+			picture = GFX_idea_ERE_Kamchatka_salmon_ideas
+			modifier = {
+                monthly_population = 0.8
+                consumer_goods_factor = -0.05
+			}
+		}
+
+        ERE_okhrannoye_otdeleniye = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_okhrannoye_otdeleniye"}
+            name = ERE_okhrannoye_otdeleniye
+			picture = GFX_idea_ERE_okhrannoye_otdeleniye
+			research_bonus = {
+				decryption_tech = 0.20
+				encryption_tech = 0.20
+			}
+			modifier = {
+				political_power_gain = 0.1
+				army_morale_factor = 0.1
+				resistance_growth = -0.1
+			}
+		}
+		ERE_okhrannoye_otdeleniye_lar = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_okhrannoye_otdeleniye_lar"}
+            name = ERE_okhrannoye_otdeleniye
+			picture = GFX_idea_RUS_okhrannoye_otdeleniye
+			modifier = {
+				political_power_gain = 0.1
+				operative_slot = 1
+				intel_network_gain_factor = 0.1
+				army_morale_factor = 0.1
+				resistance_growth = -0.1
 			}
 		}
 

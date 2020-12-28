@@ -26,7 +26,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_way_to_find_baby_brother"
-			set_country_flag = SE_ERE_find_baby_brother
+			add_political_power = 100
 		}
 	}
 
@@ -47,7 +47,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_anastasia_s_speech"
-			add_political_power = 150
+			country_event = {
+				id = anastasia_russia.1
+			}
 		}
 	}
 
@@ -68,7 +70,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_anastasia_s_speech"
-			add_political_power = 150
+			add_political_power = 100
 		}
 	}
 
@@ -89,7 +91,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_to_save_our_babybro"
-			add_political_power = 150
+			add_stability = 0.05
 		}
 	}
 
@@ -110,7 +112,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_ask_around_about_baby_bro"
-			add_political_power = 150
+			custom_effect_tooltip = tooltip_people_will_worry_about_him
+			hidden_effect = {
+				set_country_flag = people_worry_about_alexei
+			}
 		}
 	}
 
@@ -125,13 +130,23 @@ focus_tree = {
 			focus = ERE_ask_around_about_baby_bro
 		}
 
+		available = {
+			has_country_flag = people_worry_about_alexei
+		}
+
 		ai_will_do = {
 			factor = 100
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_ask_around_about_baby_bro"
-			add_political_power = 150
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				add_ideas = ERE_okhrannoye_otdeleniye_lar
+			}
+			else = {
+				add_ideas = ERE_okhrannoye_otdeleniye
+			}
 		}
 	}
 
@@ -152,7 +167,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_to_save_our_babybro"
-			add_political_power = 150
+			add_war_support = 0.05
 		}
 	}
 
@@ -173,7 +188,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Gathering_asylum_seekers"
-			add_political_power = 150
+			country_event = {
+				id = anastasia_russia.3
+			}
 		}
 	}
 
@@ -194,7 +211,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_gift_from_supporters"
-			add_political_power = 150
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = ERE
+			}
 		}
 	}
 
@@ -215,7 +236,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_build_the_industry"
-			add_political_power = 150
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry
+			}
 		}
 	}
 
@@ -236,7 +261,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_ideological_advancement_of_thinking"
-			add_political_power = 150
+			add_ideas = {
+				ERE_conversion_ideas_ideas
+			}
 		}
 	}
 
@@ -257,7 +284,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_precious_people"
-			add_political_power = 150
+			add_ideas = ERE_Kamchatka_salmon_ideas
 		}
 	}
 
@@ -281,7 +308,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_precious_people"
-			add_political_power = 150
+			add_political_power = 100
+			hidden_effect = {
+				country_event = {
+					id = anastasia_russia.2
+				}
+			}
 		}
 	}
 
@@ -305,7 +337,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_heavy_crackdown"
-			add_political_power = 150
+			swap_ideas = {
+				remove_idea = ERE_uncooperative_locals_ideas
+				add_idea = ERE_coercive_crackdown_ideas
+			}
 		}
 	}
 
@@ -329,7 +364,10 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_heavy_crackdown"
-			add_political_power = 150
+			swap_ideas = {
+				remove_idea = ERE_uncooperative_locals_ideas
+				add_idea = ERE_harmony_with_indigenous_peoples_ideas
+			}
 		}
 	}
 
@@ -342,8 +380,6 @@ focus_tree = {
 
 		prerequisite = {
 			focus = ERE_assimilation_with_indigenous
-		}
-		prerequisite = {
 			focus = ERE_heavy_crackdown
 		}
 
@@ -353,7 +389,27 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_foundation_building"
-			add_political_power = 150
+			637 = {
+				add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}
+			}
+			1359 = {
+				add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+			}
+			644 = {
+				add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+			}
 		}
 	}
 
@@ -380,7 +436,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_pieces_were_put_together"
-			add_political_power = 150
+			custom_effect_tooltip = tooltip_we_start_next_step
 		}
 	}
 

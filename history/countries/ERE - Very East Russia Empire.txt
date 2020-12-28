@@ -41,6 +41,7 @@ country_event = {
 add_ideas = {
 	ERE_undead_infantry_ideas
 	ERE_GOD_SAVE_OUR_QUEEN_IDEAS
+	ERE_uncooperative_locals_ideas
 }
 
 set_country_flag = ERE_romanov_kingdom

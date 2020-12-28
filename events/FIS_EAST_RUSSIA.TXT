@@ -1,10 +1,10 @@
-add_namespace = eastrussiaempire
+add_namespace = anastasia_russia
 
 country_event = {
-	id = eastrussiaempire.1
-	immediate = { log = "[GetDateText]: [Root.GetName]: event eastrussiaempire.1" }
-	title = eastrussiaempire.1.t
-	desc = eastrussiaempire.1.d
+	id = anastasia_russia.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.1" }
+	title = anastasia_russia.1.t
+	desc = anastasia_russia.1.d
 	picture = GFX_report
 
 	is_triggered_only = yes
@@ -12,7 +12,39 @@ country_event = {
     fire_only_once = yes
 
 	option = {
-		name = eastrussiaempire.1.a
-        
+		name = anastasia_russia.1.a
+	}
+}
+
+country_event = {
+	id = anastasia_russia.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.2" }
+	title = anastasia_russia.2.t
+	desc = anastasia_russia.2.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.2.a
+	}
+}
+
+country_event = {
+	id = anastasia_russia.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.3" }
+	title = anastasia_russia.3.t
+	desc = anastasia_russia.3.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.3.a
+		add_manpower = 25000
 	}
 }
