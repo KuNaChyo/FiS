@@ -19,6 +19,10 @@ ERE_SE_UNITED_RUSSIA_T:0 "러시아의 통일"
 ERE_SE_UNITED_RUSSIA_D:0 "제가 여왕 폐하를 처음 뵈었을 때, 한 마리의 토끼와 같았습니다. 두려움과 겁이 많은 분이셨죠.\n하지만 이제는 한 마리의 호랑이가 되어 러시아라는 거대한 무리를 통솔하십니다. 그녀의 성장에 경의를 표합니다.\N-한 러시아 제국 병사"
 ERE_SE_UNITED_RUSSIA_O:0 "신 질서"
 
+ERE_SE_FIND_ALEXEI_T:0 "알렉세이를 찾았어"
+ERE_SE_FIND_ALEXEI_D:0 "사랑해\n너에게 다가오는 벌레들은\n내가 처리했어\n내가 너를 가질수 없다면\n너를 죽이고 같이 죽을 꺼야"
+ERE_SE_FIND_ALEXEI_O:0 "지켜줄게"
+
 # 국민정신 #
 
 ERE_undead_infantry_ideas:0 "언제나 충실하게"

@@ -26,7 +26,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_way_to_find_baby_brother"
-			add_political_power = 150
+			set_country_flag = SE_ERE_find_baby_brother
 		}
 	}
 

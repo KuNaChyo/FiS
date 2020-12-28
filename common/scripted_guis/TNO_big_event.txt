@@ -143,6 +143,31 @@ scripted_gui = {
 			}
 		}
 	}
+
+	FIS_SG_ERE_find_baby_brother_alexei = {
+		context_type = player_context
+		window_name = "FIS_SG_ERE_find_baby_brother_alexei"
+
+		visible = {
+			has_country_flag = SE_ERE_find_baby_brother
+		}
+	}
+
+	FIS_SG_ERE_find_baby_brother_alexei_frame = {
+		context_type = player_context
+		window_name = "FIS_SG_ERE_find_baby_brother_alexei_frame"
+
+		visible = {
+			has_country_flag = SE_ERE_find_baby_brother
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_ERE_find_baby_brother
+			}
+		}
+	}
+
 ###############################################
 #
 #   새 이벤트
