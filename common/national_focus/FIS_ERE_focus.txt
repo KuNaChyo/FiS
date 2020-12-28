@@ -290,7 +290,7 @@ focus_tree = {
 
 	focus = {
 		id = ERE_problem_of_indigenous_peoples
-		icon = GFX_goal_ERE_precious_people
+		icon = GFX_goal_ERE_problem_of_indigenous_peoples
 		x = 18
 		y = 5
 		cost = 0.5

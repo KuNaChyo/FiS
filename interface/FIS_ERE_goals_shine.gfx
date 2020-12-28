@@ -95,4 +95,228 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_pieces_were_put_together_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_pieces_were_put_together.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_pieces_were_put_together.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_pieces_were_put_together.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_ideological_advancement_of_thinking_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_ideological_advancement_of_thinking.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_ideological_advancement_of_thinking.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_ideological_advancement_of_thinking.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_precious_people_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_precious_people.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_precious_people.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_precious_people.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_problem_of_indigenous_peoples_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_problem_of_indigenous_peoples.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_problem_of_indigenous_peoples.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_problem_of_indigenous_peoples.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_assimilation_with_indigenous_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_assimilation_with_indigenous.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_assimilation_with_indigenous.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_assimilation_with_indigenous.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_heavy_crackdown_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_heavy_crackdown.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_heavy_crackdown.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_heavy_crackdown.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_ERE_foundation_building_shine"
+        texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_foundation_building.dds"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_foundation_building.dds"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/ERE/GFX_goal_ERE_foundation_building.dds"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
 }

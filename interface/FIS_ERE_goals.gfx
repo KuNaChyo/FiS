@@ -11,4 +11,39 @@ spriteTypes = {
 		name = "GFX_goal_ERE_build_the_industry"
 		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_build_the_industry.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_pieces_were_put_together"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_pieces_were_put_together.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_ideological_advancement_of_thinking"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_ideological_advancement_of_thinking.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_precious_people"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_precious_people.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_problem_of_indigenous_peoples"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_problem_of_indigenous_peoples.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_heavy_crackdown"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_heavy_crackdown.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_assimilation_with_indigenous"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_assimilation_with_indigenous.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_foundation_building"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_foundation_building.dds"			
+	}
 }
