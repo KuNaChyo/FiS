@@ -16,7 +16,10 @@ category = {
 		GAK_Sablin_effect
 	}
 	soundeffects = {
-		ERE_Sablin_effect
+		ERE_EAST_RUSSIA_UNITED
+	}
+	soundeffects = {
+		ERE_EAST_RUSSIA_FIND_ALEXEI
 	}
 	soundeffects = {
 		SE_Black_Mesa_effect
@@ -94,6 +97,13 @@ soundeffect = {
 	volume = 1.8
 	sounds = {
 		sound = ERE_EAST_RUSSIA_UNITED_01
+	}
+}
+soundeffect = {
+	name = "ERE_EAST_RUSSIA_FIND_ALEXEI"
+	volume = 1.8
+	sounds = {
+		sound = ERE_EAST_RUSSIA_FIND_ALEXEI_01
 	}
 }
 soundeffect = {
@@ -186,6 +196,12 @@ sound = {
 sound = {
 	name = "ERE_EAST_RUSSIA_UNITED_01"
 	file = "ERE/ERE_EAST_RUSSIA_UNITED_01.wav"
+	always_load = yes
+}
+
+sound = {
+	name = "ERE_EAST_RUSSIA_FIND_ALEXEI_01"
+	file = "ERE/ERE_EAST_RUSSIA_FIND_ALEXEI_01.wav"
 	always_load = yes
 }
 
