@@ -46,4 +46,39 @@ spriteTypes = {
 		name = "GFX_goal_ERE_foundation_building"
 		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_foundation_building.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_our_future_is"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_our_future_is.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_to_save_our_babybro"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_to_save_our_babybro.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_we_return_to_empire"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_we_return_to_empire.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_ask_around_about_baby_bro"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_ask_around_about_baby_bro.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_Gathering_asylum_seekers"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_Gathering_asylum_seekers.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_gift_from_supporters"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_gift_from_supporters.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_what_the_fuck_looklike_ss"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_what_the_fuck_looklike_ss.tga"			
+	}
 }

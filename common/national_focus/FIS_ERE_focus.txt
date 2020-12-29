@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = ERE_way_to_find_baby_brother
 		icon = GFX_goal_ERE_way_to_find_baby_brother
-		x = 15
+		x = 16
 		y = 2
 		cost = 0.5
 
@@ -77,7 +77,7 @@ focus_tree = {
 	focus = {
 		id = ERE_to_save_our_babybro
 		icon = GFX_goal_ERE_to_save_our_babybro
-		x = 11
+		x = 10
 		y = 5
 		cost = 0.5
 
@@ -98,7 +98,7 @@ focus_tree = {
 	focus = {
 		id = ERE_ask_around_about_baby_bro
 		icon = GFX_goal_ERE_ask_around_about_baby_bro
-		x = 11
+		x = 10
 		y = 6
 		cost = 0.5
 
@@ -122,7 +122,7 @@ focus_tree = {
 	focus = {
 		id = ERE_what_the_fuck_looklike_ss
 		icon = GFX_goal_ERE_what_the_fuck_looklike_ss
-		x = 11
+		x = 10
 		y = 7
 		cost = 0.5
 
@@ -153,7 +153,7 @@ focus_tree = {
 	focus = {
 		id = ERE_we_return_to_empire
 		icon = GFX_goal_ERE_we_return_to_empire
-		x = 13
+		x = 14
 		y = 5
 		cost = 0.5
 
@@ -174,7 +174,7 @@ focus_tree = {
 	focus = {
 		id = ERE_Gathering_asylum_seekers
 		icon = GFX_goal_ERE_Gathering_asylum_seekers
-		x = 13
+		x = 14
 		y = 6
 		cost = 0.5
 
@@ -197,7 +197,7 @@ focus_tree = {
 	focus = {
 		id = ERE_gift_from_supporters
 		icon = GFX_goal_ERE_gift_from_supporters
-		x = 13
+		x = 14
 		y = 7
 		cost = 0.5
 
@@ -222,7 +222,7 @@ focus_tree = {
 	focus = {
 		id = ERE_build_the_industry
 		icon = GFX_goal_ERE_build_the_industry
-		x = 18
+		x = 19
 		y = 3
 		cost = 0.5
 
@@ -247,7 +247,7 @@ focus_tree = {
 	focus = {
 		id = ERE_ideological_advancement_of_thinking
 		icon = GFX_goal_ERE_ideological_advancement_of_thinking
-		x = 17
+		x = 18
 		y = 4
 		cost = 0.5
 
@@ -270,7 +270,7 @@ focus_tree = {
 	focus = {
 		id = ERE_precious_people
 		icon = GFX_goal_ERE_precious_people
-		x = 19
+		x = 20
 		y = 4
 		cost = 0.5
 
@@ -291,7 +291,7 @@ focus_tree = {
 	focus = {
 		id = ERE_problem_of_indigenous_peoples
 		icon = GFX_goal_ERE_problem_of_indigenous_peoples
-		x = 18
+		x = 19
 		y = 5
 		cost = 0.5
 
@@ -320,7 +320,7 @@ focus_tree = {
 	focus = {
 		id = ERE_heavy_crackdown
 		icon = GFX_goal_ERE_heavy_crackdown
-		x = 19
+		x = 20
 		y = 6
 		cost = 0.5
 
@@ -347,7 +347,7 @@ focus_tree = {
 	focus = {
 		id = ERE_assimilation_with_indigenous
 		icon = GFX_goal_ERE_assimilation_with_indigenous
-		x = 17
+		x = 18
 		y = 6
 		cost = 0.5
 
@@ -374,7 +374,7 @@ focus_tree = {
 	focus = {
 		id = ERE_foundation_building
 		icon = GFX_goal_ERE_foundation_building
-		x = 18
+		x = 19
 		y = 7
 		cost = 0.5
 
@@ -416,7 +416,7 @@ focus_tree = {
 	focus = {
 		id = ERE_pieces_were_put_together
 		icon = GFX_goal_ERE_pieces_were_put_together
-		x = 15
+		x = 16
 		y = 8
 		cost = 0.5
 
