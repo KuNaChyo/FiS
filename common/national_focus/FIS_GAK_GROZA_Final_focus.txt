@@ -1,8 +1,23 @@
-#똑 딱 				똑 딱		똑 딱	똑 딱
-#		똑 딱			똑 딱		똑 딱	똑 딱
-#똑 딱			똑 딱		똑 딱		똑 딱	똑 딱
-#		똑 딱			똑 딱		똑 딱
-#	똑 딱	똑 딱		똑 딱		똑 딱	똑 딱
+										#똑 딱 				똑 딱		똑 딱	똑 딱
+										#		똑 딱			똑 딱		똑 딱	똑 딱
+										#똑 딱			똑 딱		똑 딱		똑 딱	똑 딱
+										#		똑 딱			똑 딱		똑 딱
+										#	똑 딱	똑 딱		똑 딱		똑 딱	똑 딱
+								# 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지!
+						# 엄마 난 커서 모유가 될래요! 엄마 난 커서 모유가 될래요!
+									# 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지!
+										# 엄마 난 커서 모유가 될래요! 엄마 난 커서 모유가 될래요!
+									# 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지!
+								# 엄마 난 커서 모유가 될래요! 엄마 난 커서 모유가 될래요!
+					# 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지! 보지!
+							# 엄마 난 커서 모유가 될래요! 엄마 난 커서 모유가 될래요!
+											#똑 딱 				똑 딱		똑 딱	똑 딱
+											#		똑 딱			똑 딱		똑 딱	똑 딱
+											#똑 딱			똑 딱		똑 딱		똑 딱	똑 딱
+											#		똑 딱			똑 딱		똑 딱
+											#	똑 딱	똑 딱		똑 딱		똑 딱	똑 딱
+
+
 
 focus_tree = {
 	id = FIS_groza_control_final
@@ -98,6 +113,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_fail_fuck_all_died"
             custom_effect_tooltip = GAK_groza_stop_this_shit
+			set_country_flag = end_of_experiment
             add_political_power = 100
 		}
 	}
@@ -107,6 +123,11 @@ focus_tree = {
 		icon = GFX_goal_GAK_no_not_yet_bitchs
 		prerequisite = {
 			focus = GAK_fail_fuck_all_died
+		}
+		available = {
+			NOT = {
+				has_country_flag = end_of_experiment
+			}
 		}
         mutually_exclusive = {
 			focus = GAK_fuck_up_and_wakeup
@@ -194,7 +215,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_more_fucking_humans
 		}
-		x = 19
+		x = 17
 		y = 6
 		cost = 0.5
 
@@ -219,7 +240,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_more_fucking_humans
 		}
-		x = 21
+		x = 23
 		y = 6
 		cost = 0.5
 
@@ -288,7 +309,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_determine_cause_of_mistake
 		}
-		x = 19
+		x = 18
 		y = 8
 		cost = 0.5
 
@@ -311,7 +332,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_determine_cause_of_mistake
 		}
-		x = 21
+		x = 22
 		y = 8
 		cost = 0.5
 

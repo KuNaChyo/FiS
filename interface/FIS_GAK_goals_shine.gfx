@@ -989,4 +989,548 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_improve_the_something_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_improve_the_something.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_improve_the_something.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_improve_the_something.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_bio_experiment_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_bio_experiment.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_bio_experiment.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_bio_experiment.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_human_kidnap_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_human_kidnap.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_human_kidnap.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_human_kidnap.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_fail_fuck_all_died_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fail_fuck_all_died.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fail_fuck_all_died.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fail_fuck_all_died.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_fuck_up_and_wakeup_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_up_and_wakeup.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_up_and_wakeup.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_up_and_wakeup.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_no_not_yet_bitchs_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_no_not_yet_bitchs.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_no_not_yet_bitchs.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_no_not_yet_bitchs.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_more_fucking_humans_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_more_fucking_humans.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_more_fucking_humans.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_more_fucking_humans.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_strange_something_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_strange_something.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_strange_something.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_strange_something.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_substance_injection_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_substance_injection.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_substance_injection.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_substance_injection.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_Feed_materials_b_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_Feed_materials_b.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_Feed_materials_b.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_Feed_materials_b.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_determine_cause_of_mistake_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_determine_cause_of_mistake.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_determine_cause_of_mistake.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_determine_cause_of_mistake.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_we_need_fucking_kid_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_we_need_fucking_kid.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_we_need_fucking_kid.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_we_need_fucking_kid.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_change_the_experiment_how_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_change_the_experiment_how.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_change_the_experiment_how.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_change_the_experiment_how.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_body_power_up_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_body_power_up.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_body_power_up.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_body_power_up.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_brainwashing_and_purification_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_brainwashing_and_purification.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_brainwashing_and_purification.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_brainwashing_and_purification.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_manufacture_of_their_weapons_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_manufacture_of_their_weapons.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_manufacture_of_their_weapons.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_manufacture_of_their_weapons.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    SpriteType = {
+        name = "GFX_goal_GAK_fuck_finally_we_go_home_shine"
+        texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_finally_we_go_home.tga"			
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_finally_we_go_home.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_finally_we_go_home.tga"			
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+            animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no			# yes or no ;)
+            animationtime = 0.75				# in seconds
+            animationdelay = 0			# in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
 }

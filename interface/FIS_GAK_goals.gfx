@@ -132,6 +132,75 @@ spriteTypes = {
 		name = "GFX_goal_GAK_identification_and_analysis"
 		texturefile = "gfx/interface/goals/GAK/GAK_identification_and_analysis.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_GAK_bio_experiment"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_bio_experiment.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_human_kidnap"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_human_kidnap.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_fail_fuck_all_died"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fail_fuck_all_died.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_fuck_up_and_wakeup"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_up_and_wakeup.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_no_not_yet_bitchs"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_no_not_yet_bitchs.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_more_fucking_humans"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_more_fucking_humans.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_strange_something"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_strange_something.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_substance_injection"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_substance_injection.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_Feed_materials_b"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_Feed_materials_b.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_determine_cause_of_mistake"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_determine_cause_of_mistake.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_we_need_fucking_kid"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_we_need_fucking_kid.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_change_the_experiment_how"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_change_the_experiment_how.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_improve_the_something"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_improve_the_something.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_body_power_up"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_body_power_up.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_brainwashing_and_purification"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_brainwashing_and_purification.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_manufacture_of_their_weapons"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_manufacture_of_their_weapons.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_GAK_fuck_finally_we_go_home"
+		texturefile = "gfx/interface/goals/GAK/GFX_goal_GAK_fuck_finally_we_go_home.tga"			
+	}
 	
 	SpriteType = {
 		name = "GFX_goal_GAK_FAKE_ONE"

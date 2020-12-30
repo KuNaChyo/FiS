@@ -139,9 +139,9 @@ GAK_more_fucking_humans:0 "대조군과 실험군"
 GAK_strange_something:0 "태평양에서의 획기적인 발견"
 GAK_substance_injection:0 "A물질 주입"
 GAK_Feed_materials_b:0 "B물질 주입"
-GAK_determine_cause_of_mistake:0 "뭐가 잘못된건데!!!!"
+GAK_determine_cause_of_mistake:0 "그래, 이건 일종의 가챠다."
 GAK_improve_the_something:0 "물질 개선"
-GAK_we_need_fucking_kid:0 "우린 염병할 애새끼들이 필요하다고"
+GAK_we_need_fucking_kid:0 "실험체 좀 아껴쓰고"
 GAK_change_the_experiment_how:0 "더이상의 낭비는 없다"
 GAK_body_power_up:0 "AB물질 주입"
 GAK_brainwashing_and_purification:0 "대가리 뚜따"
@@ -159,13 +159,13 @@ FIS_GAK_groza_soulworker:0 "그로자가 인형의 부족함을 인지합니다.
 
 # 툴팁 #
 GAK_COME_DARKNESS:0 "§R돌이킬수 없습니다.§!"
-GAK_Groza_needs_soulworker:0 "§R그로자는 인형들에게 하드웨어적인 기술의 한계에 굴복합니다. 그녀는 또 다른 대안을 모색할것입니다...§!"
+GAK_Groza_needs_soulworker:0 "§R그로자는 인형들에게 하드웨어적인 기술의 한계에 굴복합니다. 그녀는 또 다른 대안을 모색할것입니다.§!"
 GAK_bio_experiment_tooltip:0 "§R그로자는 인간들에게 흥미를 보이고, 그들의 격동적인 감정을 이용할것입니다.§!"
 GAK_groza_stop_this_shit:0 "§G그로자는 이 미친짓에서 손을 뗄것입니다.§!"
 GAK_human_kidnap_tooltip:0 "§R그로자는 미대륙, 남미, 혹은 동아시아 지역에서 인간들을 납치하라는 명을 하달할것입니다.§!"
 GAK_find_strange_something_tooltip:0 "§R흥미를 느낀 그로자는 이 물질에 대한 연구를 우선순위로 배정할것입니다.§!"
 GAK_human_feels_pain:0 "§R검증도 되지 않은 물질을 주입했다간, 많은 실험체들이 죽고 말겁니다.§!"
-GAK_groza_will_research_the_cause:0 "§Y그로자는 250명의 실험체를 날려먹은것에 대한 후회와 개선점을 찾을것입니다.§!"
+GAK_groza_will_research_the_cause:0 "§Y그로자는 250명의 실험체를 날려먹은것에 대해 낭비에 대한 후회와 개선점을 찾을것입니다.§!"
 
 # 이벤트 #
 
