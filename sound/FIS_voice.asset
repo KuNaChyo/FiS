@@ -45,9 +45,6 @@ category = {
 	soundeffects = {
 		SE_Russia_unification_RUS_alexei_effect
 	}
-	soundeffects = {
-		SE_Korea_Japan_War_effect
-	}	
 	compressor = {
 		enabled = yes
 		pregain = 3.0
@@ -165,13 +162,6 @@ soundeffect = {
 		sound = SE_Russia_unification_RUS_alexei_01
 	}
 }
-soundeffect = {
-	name = SE_Korea_Japan_War_effect"
-	volume = 1.8
-	sounds = {
-		sound = SE_Korea_Japan_War_effect_01
-	}
-}
 ######################################
 sound = {
 	name = "GAK_order_by_groza_effect_01"
@@ -253,10 +243,5 @@ sound = {
 sound = {
 	name = "SE_Russia_unification_RUS_alexei_01"
 	file = "se/se_alexei_unified.wav"
-	always_load = yes
-}
-sound = {
-	name = "SE_Korea_Japan_War_effect_01"
-	file = "se/se_korea_japan_war.wav"
 	always_load = yes
 }
