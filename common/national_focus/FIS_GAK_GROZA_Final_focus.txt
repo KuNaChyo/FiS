@@ -376,7 +376,8 @@ focus_tree = {
 			focus = GAK_change_the_experiment_how
 		}
 		x = 20
-		y = 10
+		y = 11
+
 		cost = 0.5
 
 		ai_will_do = {
@@ -399,8 +400,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 22
-		y = 10
+		x = 23
+		y = 11
 		cost = 0.5
 
 		ai_will_do = {
@@ -423,8 +424,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 18
-		y = 10
+		x = 17
+		y = 11
 		cost = 0.5
 
 		ai_will_do = {
@@ -454,7 +455,7 @@ focus_tree = {
 			focus = GAK_body_power_up
 		}
 		x = 20
-		y = 11
+		y = 13
 		cost = 0.5
 
 		ai_will_do = {
