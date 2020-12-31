@@ -178,7 +178,7 @@ scripted_gui = {
 		window_name = "SE_Black_Mesa_Incident"
 
 		visible = {
-			has_country_flag = SE_Black_Mesa_Incident_FLAG
+			has_country_flag = SE_Black_Mesa_Incident_flag
 		}
 	}
 
@@ -187,12 +187,12 @@ scripted_gui = {
 		window_name = "SE_Black_Mesa_Incident_frame"
 
 		visible = {
-			has_country_flag = SE_Black_Mesa_Incident_FLAG
+			has_country_flag = SE_Black_Mesa_Incident_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Black_Mesa_Incident_FLAG
+				clr_country_flag = SE_Black_Mesa_Incident_flag
 			}
 		}
 	}
@@ -201,7 +201,7 @@ scripted_gui = {
 		window_name = "SE_Second_Lunarian_War"
 
 		visible = {
-			has_country_flag = SE_Second_Lunarian_War_FLAG
+			has_country_flag = SE_Second_Lunarian_War_flag
 		}
 	}
 
@@ -210,12 +210,12 @@ scripted_gui = {
 		window_name = "SE_Second_Lunarian_War_frame"
 
 		visible = {
-			has_country_flag = SE_Second_Lunarian_War_FLAG
+			has_country_flag = SE_Second_Lunarian_War_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Second_Lunarian_War_FLAG
+				clr_country_flag = SE_Second_Lunarian_War_flag
 			}
 		}
 	}
@@ -224,7 +224,7 @@ scripted_gui = {
 		window_name = "SE_Nazi_Meteor_Blitzkrieg"
 
 		visible = {
-			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_flag
 		}
 	}
 
@@ -233,12 +233,12 @@ scripted_gui = {
 		window_name = "SE_Nazi_Meteor_Blitzkrieg_frame"
 
 		visible = {
-			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+			has_country_flag = SE_Nazi_Meteor_Blitzkrieg_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Nazi_Meteor_Blitzkrieg_FLAG
+				clr_country_flag = SE_Nazi_Meteor_Blitzkrieg_flag
 			}
 		}
 	}
@@ -247,7 +247,7 @@ scripted_gui = {
 		window_name = "SE_Moon_Rabbit_Unified"
 
 		visible = {
-			has_country_flag = SE_Moon_Rabbit_Unified_FLAG
+			has_country_flag = SE_Moon_Rabbit_Unified_flag
 		}
 	}
 
@@ -256,12 +256,12 @@ scripted_gui = {
 		window_name = "SE_Moon_Rabbit_Unified_frame"
 
 		visible = {
-			has_country_flag = SE_Moon_Rabbit_Unified_FLAG
+			has_country_flag = SE_Moon_Rabbit_Unified_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Moon_Rabbit_Unified_FLAG
+				clr_country_flag = SE_Moon_Rabbit_Unified_flag
 			}
 		}
 	}
@@ -270,7 +270,7 @@ scripted_gui = {
 		window_name = "SE_Lunarian_Unified"
 
 		visible = {
-			has_country_flag = SE_Lunarian_Unified_FLAG
+			has_country_flag = SE_Lunarian_Unified_flag
 		}
 	}
 
@@ -279,12 +279,12 @@ scripted_gui = {
 		window_name = "SE_Lunarian_Unified_frame"
 
 		visible = {
-			has_country_flag = SE_Lunarian_Unified_FLAG
+			has_country_flag = SE_Lunarian_Unified_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Lunarian_Unified_FLAG
+				clr_country_flag = SE_Lunarian_Unified_flag
 			}
 		}
 	}
@@ -293,7 +293,7 @@ scripted_gui = {
 		window_name = "SE_Moon_Nazi_Unified"
 
 		visible = {
-			has_country_flag = SE_Moon_Nazi_Unified_FLAG
+			has_country_flag = SE_Moon_Nazi_Unified_flag
 		}
 	}
 
@@ -302,12 +302,12 @@ scripted_gui = {
 		window_name = "SE_Moon_Nazi_Unified_frame"
 
 		visible = {
-			has_country_flag = SE_Moon_Nazi_Unified_FLAG
+			has_country_flag = SE_Moon_Nazi_Unified_flag
 		}
 
 		effects = {
 			Option_click = {
-				clr_country_flag = SE_Moon_Nazi_Unified_FLAG
+				clr_country_flag = SE_Moon_Nazi_Unified_flag
 			}
 		}
 	}
@@ -376,6 +376,29 @@ scripted_gui = {
 		effects = {
 			Option_click = {
 				clr_country_flag = SE_Battle_of_Hoover_Dam_flag
+			}
+		}
+	}
+	
+	SE_Korea_Japan_War = {
+		context_type = player_context
+		window_name = "SE_Korea_Japan_War"
+		
+		visible = {
+			has_country_flag = SE_Korea_Japan_War_flag
+		}
+	}
+	
+	SE_Korea_Japan_War_frame {
+		context_type = player_context
+		window_name = "SE_Korea_Japan_War_frame"
+		
+		visible = {
+			has_country_flag = SE_Korea_Japan_War_flag
+		}
+		effects = {
+			Option_click = {
+				clr_country_flag = SE_Korea_Japan_War_flag
 			}
 		}
 	}
