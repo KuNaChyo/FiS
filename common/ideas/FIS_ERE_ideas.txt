@@ -88,6 +88,7 @@ ideas = {
 				resistance_growth = -0.1
 			}
 		}
+
 		ERE_okhrannoye_otdeleniye_lar = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_okhrannoye_otdeleniye_lar"}
             name = ERE_okhrannoye_otdeleniye
@@ -98,6 +99,17 @@ ideas = {
 				intel_network_gain_factor = 0.1
 				army_morale_factor = 0.1
 				resistance_growth = -0.1
+			}
+		}
+
+		ERE_year_of_righteousness_ideas = { #의로운 개혁의 해
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_year_of_righteousness_ideas"}
+			picture = GFX_idea_ERE_year_of_righteousness_ideas
+			modifier = {
+                stability_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 

@@ -41,6 +41,8 @@ ERE_okhrannoye_otdeleniye:0 "오흐라나"
 # 플래그 #
 
 people_worry_about_alexei:0 "제국 신민들이 알렉세이에 대해 걱정하기 시작합니다."
+flag_anastasia_won:0 "아나스타샤가 논쟁에서 승리하다"
+flag_general_won:0 "보수파 장군들이 논쟁에서 승리하다"
 
 # 툴팁 #
 
@@ -54,6 +56,10 @@ anastasia_russia.1.t:0 "아나스타샤의 연설"
 anastasia_russia.2.t:0 "토착민들의 항의 시위!"
 
 anastasia_russia.3.t:0 "망명자들의 대거 입국"
+
+anastasia_russia.4.t:0 "다음 단계로 뻗어나갈 준비"
+
+anastasia_russia.6.t:0 "장군들과의 갈등"
 
 # 포커스 트리 #
 
@@ -82,3 +88,54 @@ ERE_what_the_fuck_looklike_ss:0 "오흐라나 재결성"
 ERE_pieces_were_put_together:0 "조각이 맞춰지다"
 #"§R당§!§O연§!§Y히§! §G말§!§B이§! §W되§!§C죠§!!"
 
+# 포커스 트리 - dlc #
+
+#ERE_focus_dlc:0 "아나스타샤의 COME BACK HOME 제 2부"
+
+ERE_benevolent_reform:0 "자비 개혁"
+
+ERE_the_Industrialization:0 "산업화"
+ERE_the_oil_drilling:0 "자원 채굴"
+ERE_munitions_sponsorship:0 "군수 산업 후원"
+ERE_Standardization_of_parts:0 "부품 규격화"
+ERE_expansion_of_munitions_factory:0 "군수생산 증가"
+ERE_house_of_war:0 "왕가의 병기창"
+ERE_industrial_rice_aka_steel:0 "산업의 쌀, 강철"
+ERE_import_new_equipment:0 "채굴 장비 수입"
+ERE_a_motivated_worker:0 "의욕적인 노동자"
+ERE_fine_achievement:0 "좋은 성과"
+ERE_Promotion_of_private_enterprises:0 "노동자 격려"
+ERE_electricity_for_factories:0 "공장을 위한 전기"
+ERE_Corporate_nationalization:0 "기업 국유화"
+ERE_corporate_privatization:0 "기업 민영화"
+ERE_endless_sea_of_factories:0 "끝없는 공장의 파도"
+ERE_promotion_of_industrialization:0 "산업화 촉진"
+ERE_house_like_factory:0 "집과도 같은 공장"
+ERE_extremely_high_production:0 "극한의 성장률"
+ERE_made_in_russia_empire:0 "삼팔광땡"
+
+ERE_reforms_in_education:0 "교육 개혁"
+ERE_technological_innovation:0 "기술 혁신"
+ERE_Kamchatka_National_University:0 "캄차카 국립 대학교"
+ERE_Import_Computer_Design:0 "컴퓨터 설계도 수입"
+ERE_Anastasia_s_Information_Reform:0 "정보 개혁"
+ERE_mechanized_bureaucracy:0 "실험적인 전산화"
+ERE_automated_agriculture:0 "자동화된 농업"
+ERE_Artificial_intelligence_development:0 "인공지능과 춤을"
+ERE_Empire_open_future_door:0 "러시아펑크 1952"
+
+ERE_already_ready_steel_army:0 "차르의 새로운 군대"
+ERE_Anastasia_led_reforms:0 "아나스타샤 주도하의 개혁"
+ERE_generals_know_answer:0 "장군들은 답을 알고있다"
+ERE_mobileization_study:0 "기동전 연구"
+ERE_Char_tank_design:0 "차르 전차 설계"
+ERE_trench_raper:0 "참호 강간병"
+ERE_offensive_of_armored_vehicles:0 "장갑차의 대규모 공세"
+ERE_gas_gas_gas:0 "가스 가스 가스!"
+ERE_three_dimensional_war:0 "입체적인 전쟁"
+ERE_not_white_army_you_knew:0 "네가 알던 내가 아냐"
+
+ERE_under_huge_command:0 "거대한 사령부 아래에서"
+ERE_like_chess:0 "난 플레이어, 병사들은 체스말."
+ERE_Trust_u_and_ur_shovel:0 "총과 너의 삽을 믿어라"
+ERE_burn_it_white:0 "하얗게 불태워라"

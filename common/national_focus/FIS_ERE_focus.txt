@@ -437,6 +437,12 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_pieces_were_put_together"
 			custom_effect_tooltip = tooltip_we_start_next_step
+			country_event = {
+				id = anastasia_russia.4
+			}
+			hidden_effect = {
+				load_focus_tree = ERE_focus_dlc
+			}
 		}
 	}
 

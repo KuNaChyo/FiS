@@ -58,52 +58,52 @@ category = {
 
 ######################################
 soundeffect = {
-	name = "GAK_order_by_groza_effect"
-	volume = 1.2
-	sounds = {
-		sound = GAK_order_by_groza_effect_01
-	}
-}
-soundeffect = {
 	name = "GAK_G36_effect"
 	volume = 1.8
 	sounds = {
-		sound = GAK_G36_effect_01
+		sound = GAK_G36_effect
 	}
 }
 soundeffect = {
 	name = "GAK_kar98k_effect"
 	volume = 1.8
 	sounds = {
-		sound = GAK_kar98k_effect_01
+		sound = GAK_kar98k_effect
+	}
+}
+soundeffect = {
+	name = "GAK_order_by_groza_effect"
+	volume = 1.8
+	sounds = {
+		sound = GAK_order_by_groza_effect
 	}
 }
 soundeffect = {
 	name = "GAK_mosin_nagant_effect"
 	volume = 1.8
 	sounds = {
-		sound = GAK_mosin_nagant_effect_01
+		sound = GAK_mosin_nagant_effect
 	}
 }
 soundeffect = {
 	name = "GAK_Sablin_effect"
 	volume = 1.8
 	sounds = {
-		sound = GAK_Sablin_effect_01
+		sound = GAK_Sablin_effect
 	}
 }
 soundeffect = {
 	name = "ERE_EAST_RUSSIA_UNITED"
 	volume = 1.8
 	sounds = {
-		sound = ERE_EAST_RUSSIA_UNITED_01
+		sound = ERE_EAST_RUSSIA_UNITED
 	}
 }
 soundeffect = {
 	name = "ERE_EAST_RUSSIA_FIND_ALEXEI"
 	volume = 1.8
 	sounds = {
-		sound = ERE_EAST_RUSSIA_FIND_ALEXEI_01
+		sound = ERE_EAST_RUSSIA_FIND_ALEXEI
 	}
 }
 soundeffect = {
@@ -164,43 +164,43 @@ soundeffect = {
 }
 ######################################
 sound = {
-	name = "GAK_order_by_groza_effect_01"
+	name = "GAK_order_by_groza_effect"
 	file = "GAK/GAK_order_by_groza_effect_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "GAK_G36_effect_01"
+	name = "GAK_G36_effect"
 	file = "GAK/GAK_G36_effect_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "GAK_kar98k_effect_01"
+	name = "GAK_kar98k_effect"
 	file = "GAK/GAK_kar98k_effect_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "GAK_mosin_nagant_effect_01"
+	name = "GAK_mosin_nagant_effect"
 	file = "GAK/GAK_mosin_nagant_effect_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "GAK_Sablin_effect_01"
+	name = "GAK_Sablin_effect"
 	file = "GAK/GAK_Sablin_effect_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "ERE_EAST_RUSSIA_UNITED_01"
+	name = "ERE_EAST_RUSSIA_UNITED"
 	file = "ERE/ERE_EAST_RUSSIA_UNITED_01.wav"
 	always_load = yes
 }
 
 sound = {
-	name = "ERE_EAST_RUSSIA_FIND_ALEXEI_01"
+	name = "ERE_EAST_RUSSIA_FIND_ALEXEI"
 	file = "ERE/ERE_EAST_RUSSIA_FIND_ALEXEI_01.wav"
 	always_load = yes
 }

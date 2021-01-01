@@ -1,0 +1,917 @@
+focus_tree = {
+	id = ERE_focus_dlc 
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 3000 y = 700 }
+
+	focus = {
+		id = ERE_the_Industrialization
+		icon = GFX_goal_ERE_the_Industrialization
+		prerequisite = {
+			focus = ERE_benevolent_reform
+		}
+		x = 4
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_the_Industrialization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_the_oil_drilling
+		icon = GFX_goal_ERE_the_oil_drilling
+		prerequisite = {
+			focus = ERE_the_Industrialization
+		}
+		x = 2
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_the_oil_drilling"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_import_new_equipment
+		icon = GFX_goal_ERE_the_oil_drilling
+		prerequisite = {
+			focus = ERE_the_oil_drilling
+		}
+		x = 2
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_the_oil_drilling"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_fine_achievement
+		icon = GFX_goal_ERE_fine_achievement
+		prerequisite = {
+			focus = ERE_import_new_equipment
+		}
+		prerequisite = {
+			focus = ERE_a_motivated_worker
+		}
+		x = 1
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_fine_achievement"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Promotion_of_private_enterprises
+		icon = GFX_goal_ERE_fine_achievement
+		prerequisite = {
+			focus = ERE_fine_achievement
+		}
+		x = 1
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Promotion_of_private_enterprises"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_house_like_factory
+		icon = GFX_goal_ERE_house_like_factory
+		prerequisite = {
+			focus = ERE_Promotion_of_private_enterprises
+		}
+		x = 1
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_house_like_factory"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_a_motivated_worker
+		icon = GFX_goal_ERE_a_motivated_worker
+		prerequisite = {
+			focus = ERE_the_oil_drilling
+		}
+		x = 0
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_a_motivated_worker"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_industrial_rice_aka_steel
+		icon = GFX_goal_ERE_industrial_rice_aka_steel
+		prerequisite = {
+			focus = ERE_the_oil_drilling
+			focus = ERE_munitions_sponsorship
+		}
+		x = 4
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_industrial_rice_aka_steel"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_electricity_for_factories
+		icon = GFX_goal_ERE_electricity_for_factories
+		prerequisite = {
+			focus = ERE_import_new_equipment
+			focus = ERE_Standardization_of_parts
+		}
+		x = 4
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_electricity_for_factories"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Corporate_nationalization
+		icon = GFX_goal_ERE_Corporate_nationalization
+		prerequisite = {
+			focus = ERE_electricity_for_factories
+		}
+		mutually_exclusive = {
+			focus = ERE_corporate_privatization
+		}
+		x = 3
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Corporate_nationalization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_corporate_privatization
+		icon = GFX_goal_ERE_corporate_privatization
+		prerequisite = {
+			focus = ERE_electricity_for_factories
+		}
+		mutually_exclusive = {
+			focus = ERE_Corporate_nationalization
+		}
+		x = 5
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_corporate_privatization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_endless_sea_of_factories
+		icon = GFX_goal_ERE_corporate_privatization
+		prerequisite = {
+			focus = ERE_Corporate_nationalization
+			focus = ERE_corporate_privatization
+		}
+		x = 4
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_corporate_privatization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_made_in_russia_empire
+		icon = GFX_goal_ERE_corporate_privatization
+		prerequisite = {
+			focus = ERE_endless_sea_of_factories
+		}
+		prerequisite = {
+			focus = ERE_extremely_high_production
+		}
+		prerequisite = {
+			focus = ERE_house_like_factory
+		}
+		x = 4
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_corporate_privatization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_munitions_sponsorship
+		icon = GFX_goal_ERE_munitions_sponsorship
+		prerequisite = {
+			focus = ERE_the_Industrialization
+		}
+		x = 6
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_munitions_sponsorship"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Standardization_of_parts
+		icon = GFX_goal_ERE_Standardization_of_parts
+		prerequisite = {
+			focus = ERE_munitions_sponsorship
+		}
+		x = 6
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_munitions_sponsorship"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_expansion_of_munitions_factory
+		icon = GFX_goal_ERE_expansion_of_munitions_factory
+		prerequisite = {
+			focus = ERE_munitions_sponsorship
+		}
+		x = 8
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_munitions_sponsorship"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_house_of_war
+		icon = GFX_goal_ERE_fine_achievement
+		prerequisite = {
+			focus = ERE_Standardization_of_parts
+		}
+		prerequisite = {
+			focus = ERE_expansion_of_munitions_factory
+		}
+		x = 7
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_fine_achievement"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_promotion_of_industrialization
+		icon = GFX_goal_ERE_promotion_of_industrialization
+		prerequisite = {
+			focus = ERE_house_of_war
+		}
+		x = 7
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_promotion_of_industrialization"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_extremely_high_production
+		icon = GFX_goal_ERE_extremely_high_production
+		prerequisite = {
+			focus = ERE_promotion_of_industrialization
+		}
+		x = 7
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_extremely_high_production"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_benevolent_reform
+		icon = GFX_goal_ERE_benevolent_reform
+		x = 10
+		y = 1
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_benevolent_reform"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_reforms_in_education
+		icon = GFX_goal_ERE_reforms_in_education
+		prerequisite = {
+			focus = ERE_benevolent_reform
+		}
+		x = 11
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_reforms_in_education"
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = ERE_technological_innovation
+		icon = GFX_goal_ERE_technological_innovation
+		prerequisite = {
+			focus = ERE_benevolent_reform
+		}
+		x = 9
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_technological_innovation"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Kamchatka_National_University
+		icon = GFX_goal_ERE_Kamchatka_National_University
+		prerequisite = {
+			focus = ERE_technological_innovation
+		}
+		prerequisite = {
+			focus = ERE_reforms_in_education
+		}
+		x = 10
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Kamchatka_National_University"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Import_Computer_Design
+		icon = GFX_goal_ERE_Import_Computer_Design
+		prerequisite = {
+			focus = ERE_Kamchatka_National_University
+		}
+		x = 10
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Import_Computer_Design"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Anastasia_s_Information_Reform
+		icon = GFX_goal_ERE_Anastasia_s_Information_Reform
+		prerequisite = {
+			focus = ERE_Import_Computer_Design
+		}
+		x = 10
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Anastasia_s_Information_Reform"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_mechanized_bureaucracy
+		icon = GFX_goal_ERE_mechanized_bureaucracy
+		prerequisite = {
+			focus = ERE_Anastasia_s_Information_Reform
+		}
+		x = 10
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_mechanized_bureaucracy"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Artificial_intelligence_development
+		icon = GFX_goal_ERE_Artificial_intelligence_development
+		prerequisite = {
+			focus = ERE_Anastasia_s_Information_Reform
+		}
+		x = 12
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Artificial_intelligence_development"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Empire_open_future_door
+		icon = GFX_goal_ERE_Empire_open_future_door
+		prerequisite = {
+			focus = ERE_Artificial_intelligence_development
+		}
+		prerequisite = {
+			focus = ERE_mechanized_bureaucracy
+		}
+		prerequisite = {
+			focus = ERE_automated_agriculture
+		}
+		x = 10
+		y = 9
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Empire_open_future_door"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_automated_agriculture
+		icon = GFX_goal_ERE_automated_agriculture
+		prerequisite = {
+			focus = ERE_Anastasia_s_Information_Reform
+		}
+		x = 8
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_automated_agriculture"
+			add_political_power = 100
+		}
+	}
+
+    focus = {
+		id = ERE_already_ready_steel_army
+		icon = GFX_goal_ERE_already_ready_steel_army
+		prerequisite = {
+			focus = ERE_benevolent_reform
+		}
+		x = 16
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_already_ready_steel_army"
+			add_political_power = 100
+			country_event = {
+
+			}
+		}
+	}
+
+	focus = {
+		id = ERE_Anastasia_led_reforms
+		icon = GFX_goal_ERE_Anastasia_led_reforms
+		prerequisite = {
+			focus = ERE_already_ready_steel_army
+		}
+		available = {
+			has_country_flag = flag_anastasia_won
+		}
+		x = 14
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_already_ready_steel_army"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_mobileization_study
+		icon = GFX_goal_ERE_mobileization_study
+		prerequisite = {
+			focus = ERE_Anastasia_led_reforms
+		}
+		x = 14
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_mobileization_study"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Char_tank_design
+		icon = GFX_goal_ERE_Char_tank_design
+		prerequisite = {
+			focus = ERE_mobileization_study
+		}
+		x = 12
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_mobileization_study"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_trench_raper
+		icon = GFX_goal_ERE_trench_raper
+		prerequisite = {
+			focus = ERE_mobileization_study
+		}
+		x = 14
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_trench_raper"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_offensive_of_armored_vehicles
+		icon = GFX_goal_ERE_offensive_of_armored_vehicles
+		prerequisite = {
+			focus = ERE_mobileization_study
+		}
+		x = 16
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_offensive_of_armored_vehicles"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_gas_gas_gas
+		icon = GFX_goal_ERE_gas_gas_gas
+		prerequisite = {
+			focus = ERE_trench_raper
+		}
+		prerequisite = {
+			focus = ERE_offensive_of_armored_vehicles
+		}
+		x = 15
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_gas_gas_gas"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_three_dimensional_war
+		icon = GFX_goal_ERE_three_dimensional_war
+		prerequisite = {
+			focus = ERE_trench_raper
+		}
+		prerequisite = {
+			focus = ERE_Char_tank_design
+		}
+		x = 13
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_three_dimensional_war"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_not_white_army_you_knew
+		icon = GFX_goal_ERE_not_white_army_you_knew
+		prerequisite = {
+			focus = ERE_three_dimensional_war
+		}
+		prerequisite = {
+			focus = ERE_gas_gas_gas
+		}
+		x = 14
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_not_white_army_you_knew"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_generals_know_answer
+		icon = GFX_goal_ERE_generals_know_answer
+		prerequisite = {
+			focus = ERE_already_ready_steel_army
+		}
+		available = {
+			has_country_flag = flag_general_won
+		}
+		x = 18
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_already_ready_steel_army"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_under_huge_command
+		icon = GFX_goal_ERE_under_huge_command
+		prerequisite = {
+			focus = ERE_already_ready_steel_army
+		}
+		x = 18
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_under_huge_command"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_like_chess
+		icon = GFX_goal_ERE_like_chess
+		prerequisite = {
+			focus = ERE_under_huge_command
+		}
+		x = 18
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_like_chess"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_Trust_u_and_ur_shovel
+		icon = GFX_goal_ERE_Trust_u_and_ur_shovel
+		prerequisite = {
+			focus = ERE_like_chess
+		}
+		x = 18
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_Trust_u_and_ur_shovel"
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = ERE_burn_it_white
+		icon = GFX_goal_ERE_burn_it_white
+		prerequisite = {
+			focus = ERE_like_chess
+		}
+		x = 18
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
+			add_political_power = 100
+		}
+	}
+
+
+}

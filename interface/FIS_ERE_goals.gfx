@@ -81,4 +81,14 @@ spriteTypes = {
 		name = "GFX_goal_ERE_what_the_fuck_looklike_ss"
 		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_what_the_fuck_looklike_ss.tga"			
 	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_already_ready_steel_army"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_already_ready_steel_army.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ERE_benevolent_reform"
+		texturefile = "gfx/interface/goals/ERE/GFX_goal_ERE_benevolent_reform.tga"			
+	}
 }
