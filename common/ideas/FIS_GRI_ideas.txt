@@ -19,8 +19,8 @@ ideas = {
                 production_speed_dockyard_factor = 0.3
                 production_speed_industrial_complex_factor = 0.5
 				production_oil_factor = 0.5
-				resistance_growth_on_our_occupied_states = -0.5
-				max_surrender_limit_offset = -0.5
+				resistance_growth_on_our_occupied_states = 0.5
+				max_surrender_limit_offset = 0.5
 			}
 		}
 
@@ -40,7 +40,7 @@ ideas = {
 				heat_attrition_factor = -1
 				winter_attrition_factor = -1
 				refit_ic_cost = -0.5
-				refit_speed = -0.5
+				refit_speed = 0.5
 				command_power_gain = 1
 				max_command_power = 100
 				fuel_cost = -500
@@ -79,7 +79,7 @@ ideas = {
 				license_purchase_cost_factor = -0.5
 				license_tech_difference_speed_factor = -0.5
 				refit_ic_cost = -0.5
-				refit_speed = -0.5
+				refit_speed = 0.5
 				land_equipment_upgrade_xp_cost = -0.5
 				consumer_goods_factor = -0.05
 			}
@@ -105,15 +105,16 @@ ideas = {
 		}
 		
 		
-		GRI_you don't even know..._ideas = { #1급 기밀
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_???_ideas"}
+		GRI_agency_ideas = { #1급 기밀
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_agency_ideas"}
 			picture = GFX_idea_GRI_agency_ideas
 			modifier = {
-				agency_upgrade_time = -0.5
+				agency_upgrade_time = -1
 				decryption_factor = 0.5
 				encryption_factor = 0.5
 				foreign_subversive_activites = -0.5
 			}
 		}
+		
     }
 }
