@@ -1,0 +1,31 @@
+spriteTypes = {	
+
+	### 국민정신 를! 할 거예여~
+	
+
+	spriteType = {
+		name = "GFX_idea_GRI_grifon_dolls_development_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_grifon_dolls_development_ideas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRI_t_dolls_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_t_dolls.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRI_IOP_dolls_production_support_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_IOP_dolls_production_support.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRI_IOP_equipment_production_support_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_IOP_equipment_production_support.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRI_political_situation_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_political_situation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRI_agency_ideas"
+		texturefile = "gfx/interface/ideas/GRI/ideas/GRI_agency.dds"
+	}
+
+}

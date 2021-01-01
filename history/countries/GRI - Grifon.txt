@@ -63,6 +63,16 @@ set_politics = {
 	election_frequency = 120
 	elections_allowed = no
 }
+
+add_ideas = {
+    GRI_grifon_dolls_development_ideas
+	GRI_t_dolls_ideas
+	GRI_IOP_dolls_production_support_ideas
+	GRI_IOP_equipment_production_support_ideas
+	GRI_political_situation_ideas
+	GRI_agency_ideas
+}
+
 set_popularities = {
 	jucheism = 0 
 	authoritarian_communism = 0
