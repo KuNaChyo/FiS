@@ -69,6 +69,7 @@ add_ideas = {
 	GRI_t_dolls_ideas
 	GRI_IOP_dolls_production_support_ideas
 	GRI_IOP_equipment_production_support_ideas
+	GRI_political_situation_ideas
 }
 
 set_popularities = {
