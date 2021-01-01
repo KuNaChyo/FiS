@@ -50,17 +50,18 @@ bookmarks = {
 				GAK_FAKE_THR
 			}
 		}
-		""={
-			history = "JAP_1933_desc"
-			ideology = authoritarian
+		"GRI"={
+			history = "GRI_bookmark_desc"
+			ideology = conservatism
 			ideas = {
-				JAP_The_Fading_Ballot_Box
-				JAP_The_Military_Ascendant
+				GRI_grifon_dolls_development_ideas
+				GRI_t_dolls_ideas
+				GRI_IOP_dolls_production_support_ideas
 			}
 			focuses = {
-				JAP_Manchuria_Triumphant
-				JAP_Shadow_of_2_26
-				JAP_The_National_Defense_State
+				GRI_start
+				GRI_doll_commander
+				GRI_fascism3
 			}
 		}
 		"RAP"={

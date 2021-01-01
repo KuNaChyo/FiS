@@ -1,0 +1,68 @@
+
+#####################################
+##############국민정신##################
+#####################################
+
+ideas = {
+    country = {
+        GRI_grifon_dolls_development_ideas = { #그리폰 전술인형 제조 시스템
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_grifon_dolls_development_ideas"}
+			picture = GFX_idea_GRI_grifon_dolls_development_ideas
+			modifier = {
+                consumer_goods_factor = -0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				training_time_army_factor = -0.5
+                conscription_factor = 0.5
+				weekly_manpower = 10000
+                production_speed_arms_factory_factor = 0.5
+                production_speed_dockyard_factor = 0.3
+                production_speed_industrial_complex_factor = 0.5
+			}
+		}
+
+        GRI_t_dolls_ideas = { #전술인형
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_t_dolls_ideas"}
+			picture = GFX_idea_GRI_t_dolls_ideas
+			modifier = {
+				stability_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.3
+				army_morale_factor = 0.3
+				army_org_factor = 0.3
+				experience_gain_army = 0.2
+				experience_loss_factor = -0.8
+				conscription_factor = 0.3
+				heat_attrition_factor = -1
+				winter_attrition_factor = -1
+			}
+		}
+
+		GRI_IOP_dolls_production_support_ideas = { #IOP 전술인형 제조 보조 시스템
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_IOP_dolls_production_support_ideas"}
+			picture = GFX_idea_GRI_IOP_dolls_production_support_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_start_efficiency_factor = 0.25
+				global_building_slots_factor = 0.25
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+		GRI_IOP_equipment_production_support_ideas = { #IOP 장비 제조 보조 시스템
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRI_IOP_equipment_production_support_ideas"}
+			picture = GFX_idea_GRI_IOP_equipment_production_support_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.25
+				production_factory_start_efficiency_factor = 0.25
+				global_building_slots_factor = 0.25
+				equipment_conversion_speed = 0.5
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+    }
+}
