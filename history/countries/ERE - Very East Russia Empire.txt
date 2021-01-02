@@ -34,10 +34,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-country_event = {
-	id = eastrussia.1
-}
-
 add_ideas = {
 	ERE_undead_infantry_ideas
 	ERE_GOD_SAVE_OUR_QUEEN_IDEAS
