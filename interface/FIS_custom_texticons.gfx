@@ -26,6 +26,31 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_GAK_portrait_savlin"
+		texturefile = "gfx/texticons/Portrait_Buryatia_Valery_Sablin.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GAK_portrait_G36"
+		texturefile = "gfx/texticons/Portrait_Girls_Frontline_G36_maid.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GAK_portrait_Kar98k"
+		texturefile = "gfx/texticons/Portrait_Girls_Frontline_Kar98k_2.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GAK_portrait_M1891"
+		texturefile = "gfx/texticons/Portrait_Girls_Frontline_M1891_2.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GAK_portrait_Ots_14"
+		texturefile = "gfx/texticons/Portrait_Girls_Frontline_OTs_14_Groza.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_NCR_enclave"
 		texturefile = "gfx/texticons/NCR_enclave.tga"
 		legacy_lazy_load = no

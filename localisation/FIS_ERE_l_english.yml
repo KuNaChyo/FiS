@@ -37,17 +37,34 @@ ERE_coercive_crackdown_ideas:0 "토착민 진압"
 ERE_Kamchatka_salmon_ideas:0 "캄차카 연어 양식 산업"
 ERE_Kamchatka_salmon_ideas_desc:0 "캄차카에는 맛 좋은 연어가 많이 있습니다."
 ERE_okhrannoye_otdeleniye:0 "오흐라나"
+ERE_technological_innovation_ideas:0 "기술 혁신"
+ERE_import_new_equipment_ideas:0 "해외의 우수한 장비"
+ERE_Standardization_of_parts_ideas:0 "부품 규격화"
+ERE_electricity_for_factories_ideas:0 "발전소 개장을 위한 예산 투입"
+ERE_electricity_for_factories_2_ideas:0 "밝은 캄차카"
+ERE_Corporate_nationalization_ideas:0 "기업 국유화"
+ERE_corporate_privatization_ideas:0 "기업 민영화"
+ERE_nice_labor_ideas:0 "숙련된 노동자"
+ERE_nice_labor_ideas_2:0 "숙련된 노동자"
+ERE_nice_labor_ideas_3:0 "숙련된 노동자"
+ERE_house_of_war_ideas:0 "왕실 조병창"
+ERE_house_of_war_2_ideas:0 "왕실 조병창"
+ERE_house_of_war_3_ideas:0 "왕실 조병창"
+ERE_trench_raper_ideas:0 "참호 강간병"
+ERE_gas_gas_gas_ideas:0 "화학무기의 실전 사용"
 
 # 플래그 #
 
 people_worry_about_alexei:0 "제국 신민들이 알렉세이에 대해 걱정하기 시작합니다."
-flag_anastasia_won:0 "아나스타샤가 논쟁에서 승리하다"
-flag_general_won:0 "보수파 장군들이 논쟁에서 승리하다"
+flag_anastasia_won:0 "아나스타샤가 논쟁에서 승리하다."
+flag_general_won:0 "보수파 장군들이 논쟁에서 승리하다."
+tech_innovation:0 "심화된 기술을 연구할수 있는 기반이 완성되었습니다."
 
 # 툴팁 #
 
 tooltip_people_will_worry_about_him:0 "§G제국의 신민들은 알렉세이를 걱정하며, 그에 대한 관심도가 올라갈겁니다.§!"
 tooltip_we_start_next_step:0 "§G운명의 시계탑은 돌아갑니다...§!"
+now_we_focusing_tech_tt:0 "§G이제 우린 혁신적인 기술에 집중할수 있습니다.§!"
 
 # 그냥 이벤트 #
 
@@ -101,7 +118,7 @@ ERE_pieces_were_put_together_desc:0 "제국을 건설할 밑바탕과 전쟁을 
 
 # 포커스 트리 - dlc #
 
-#ERE_focus_dlc:0 "아나스타샤의 COME BACK HOME 제 2부"
+#ERE_focus_dlc:0 "서태지 아닌 아나스타샤의 COME BACK HOME 제 2부"
 
 ERE_benevolent_reform:0 "자비 개혁"
 ERE_benevolent_reform_desc:0 "아나스타샤는 제국이 변화하기 위해선, 사상적으로 물질적으로 진보적이어야 한다고 생각했습니다. 이는 자신에게 무척이나 불리하게 다가올수 있는 생각입니다. 하지만 제국이 다시 우뚝 일어서기 위해서라면 그녀는 어떤 고통이라도 참고 이겨낼각오를 가졌습니다."
@@ -171,3 +188,15 @@ ERE_under_huge_command:0 "거대한 사령부 아래에서"
 ERE_like_chess:0 "난 플레이어, 병사들은 체스말."
 ERE_Trust_u_and_ur_shovel:0 "총과 너의 삽을 믿어라"
 ERE_burn_it_white:0 "하얗게 불태워라"
+
+ERE_Anastasia_s_Power_Questions:0 "제 1차 제국회의"
+ERE_Anastasia_s_Power_Questions_desc:0 "하늘아래 찬란한 별과 달이 보는 자리에서, 약 100명의 귀족들과 200명의 신민, 그리고 아나스타샤 여대공은 제국의 방향에 대한 결정과 제국의 상황을 다시한번 살펴 제국의 발견된 문제점을 수리하고, 다시금 우리의 옳은 방향으로 나아갈수 있도록 아나스타샤 여대공이 좋은 취지로 개최했습니다. 오늘 밤은 토론과 열띤 논쟁이 끊이지 않는 멋진 밤이 될것입니다!"
+ERE_Stability_is_cool:0 "상큼한 조화"
+ERE_power_is_cool:0 "달콤한 폭력"
+ERE_a_brave_compromise:0 "용감한 타협"
+ERE_heal_the_people:0 "사람들을 치유하자"
+ERE_ready_the_war:0 "총이나 들어"
+ERE_National_Mobilization_Act:0 "제국총동원법 통과"
+ERE_Patriotic_Youth_League:0 "제국 청년단"
+ERE_Welfare_of_Persons_with_Disabilities:0 "장애인복지법 통과"
+ERE_Civil_Rights_Act:0 "평등법 통과"

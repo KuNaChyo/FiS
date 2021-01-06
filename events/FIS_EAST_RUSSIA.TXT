@@ -106,3 +106,36 @@ country_event = {
 		set_country_flag = flag_general_won
 	}
 }
+
+country_event = {
+	id = anastasia_russia.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.7" }
+	title = anastasia_russia.7.t
+	desc = anastasia_russia.7.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.7.a
+	}
+}
+
+country_event = {
+	id = anastasia_russia.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.8" }
+	title = anastasia_russia.8.t
+	desc = anastasia_russia.8.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.8.a
+		add_ideas = ERE_electricity_for_factories_2_ideas
+	}
+}

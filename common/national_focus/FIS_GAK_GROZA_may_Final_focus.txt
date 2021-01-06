@@ -1,0 +1,466 @@
+focus_tree = {
+	id = FIS_groza_control_may_final
+
+	country = {
+		factor = 0
+	}
+
+    default = no
+	continuous_focus_position = { x = 3000 y = 700 }
+
+    focus = {
+		id = GAK_path_to_the_sun
+		icon = GFX_goal_GAK_path_to_the_sun
+
+		x = 15
+		y = 2
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_path_to_the_sun"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_operation_straight_flush
+		icon = GFX_goal_GAK_operation_straight_flush
+        prerequisite = {
+            focus = GAK_path_to_the_sun
+        }
+
+		x = 15
+		y = 3
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_operation_straight_flush"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_go_west_sir
+		icon = GFX_goal_GAK_go_west_sir
+        prerequisite = {
+            focus = GAK_operation_straight_flush
+        }
+
+		x = 25
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_go_west_sir"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_absolute_power_groza
+		icon = GFX_goal_GAK_absolute_power_groza
+        prerequisite = {
+            focus = GAK_operation_straight_flush
+        }
+
+		x = 15
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_absolute_power_groza"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_active_movement
+		icon = GFX_goal_GAK_active_movement
+        prerequisite = {
+            focus = GAK_absolute_power_groza
+        }
+        mutually_exclusive = {
+            focus = GAK_calm_and_steady
+        }
+
+		x = 17
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_active_movement"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_enhnace_privacy_organization
+		icon = GFX_goal_GAK_enhnace_privacy_organization
+        prerequisite = {
+            focus = GAK_absolute_power_groza
+        }
+        
+
+		x = 17
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_active_movement"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_individual_worship
+		icon = GFX_goal_GAK_individual_worship
+        prerequisite = {
+            focus = GAK_enhnace_privacy_organization
+        }
+        
+
+		x = 17
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_individual_worship"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_Facial_recognition
+		icon = GFX_goal_GAK_Facial_recognition
+        prerequisite = {
+            focus = GAK_individual_worship
+        }
+        
+
+		x = 18
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_Facial_recognition"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_foreign_currency_filling
+		icon = GFX_goal_GAK_foreign_currency_filling
+        prerequisite = {
+            focus = GAK_absolute_power_groza
+        }
+
+		x = 15
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_active_movement"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_legitimate_moneymaking
+		icon = GFX_goal_GAK_legitimate_moneymaking
+        prerequisite = {
+            focus = GAK_foreign_currency_filling
+        }
+        mutually_exclusive = {
+            focus = GAK_illegal_moneymaking
+        }
+
+		x = 14
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_legitimate_moneymaking"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_shit_fantasy_produce
+		icon = GFX_goal_GAK_shit_fantasy_produce
+        prerequisite = {
+            focus = GAK_legitimate_moneymaking
+        }
+
+		x = 14
+		y = 9
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_shit_fantasy_produce"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_shit_otaku_game_produce
+		icon = GFX_goal_GAK_shit_otaku_game_produce
+        prerequisite = {
+            focus = GAK_shit_fantasy_produce
+        }
+
+		x = 14
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_shit_otaku_game_produce"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_illegal_moneymaking
+		icon = GFX_goal_GAK_illegal_moneymaking
+        prerequisite = {
+            focus = GAK_foreign_currency_filling
+        }
+        mutually_exclusive = {
+            focus = GAK_legitimate_moneymaking
+        }
+
+		x = 16
+		y = 7
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_illegal_moneymaking"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_AV_and_sex_toy
+		icon = GFX_goal_GAK_AV_and_sex_toy
+        prerequisite = {
+            focus = GAK_illegal_moneymaking
+        }
+
+		x = 16
+		y = 9
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_AV_and_sex_toy"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_Mesampetamine_focus
+		icon = GFX_goal_GAK_Mesampetamine_focus
+        prerequisite = {
+            focus = GAK_illegal_moneymaking
+        }
+
+		x = 16
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_Mesampetamine_focus"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_calm_and_steady
+		icon = GFX_goal_GAK_active_movement
+        prerequisite = {
+            focus = GAK_absolute_power_groza
+        }
+        mutually_exclusive = {
+            focus = GAK_active_movement
+        }
+
+		x = 13
+		y = 5
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_active_movement"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_Nothing_happened
+		icon = GFX_goal_GAK_Nothing_happened
+        prerequisite = {
+            focus = GAK_calm_and_steady
+        }
+
+		x = 13
+		y = 6
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_Nothing_happened"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_a_vague_answer
+		icon = GFX_goal_GAK_a_vague_answer
+        prerequisite = {
+            focus = GAK_Nothing_happened
+        }
+
+		x = 13
+		y = 8
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_a_vague_answer"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_distortion_of_history
+		icon = GFX_goal_GAK_distortion_of_history
+        prerequisite = {
+            focus = GAK_a_vague_answer
+        }
+
+		x = 12
+		y = 11
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_distortion_of_history"
+            
+		}
+	}
+
+	focus = {
+		id = GAK_You_can_t_touch_me
+		icon = GFX_goal_GAK_You_can_t_touch_me
+        prerequisite = {
+            focus = GAK_shit_otaku_game_produce
+			focus = GAK_Mesampetamine_focus
+			focus = GAK_distortion_of_history
+			focus = GAK_Facial_recognition
+        }
+
+		x = 15
+		y = 12
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_You_can_t_touch_me"
+            
+		}
+	}
+
+    focus = {
+		id = GAK_they_know_answer
+		icon = GFX_goal_GAK_they_know_answer
+        prerequisite = {
+            focus = GAK_operation_straight_flush
+        }
+
+		x = 5
+		y = 4
+		cost = 0.5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAK_they_know_answer"
+            
+		}
+	}
+}

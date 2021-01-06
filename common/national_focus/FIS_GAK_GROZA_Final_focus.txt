@@ -94,45 +94,12 @@ focus_tree = {
 	}
 
     focus = {
-		id = GAK_fuck_up_and_wakeup
-		icon = GFX_goal_GAK_fuck_up_and_wakeup
-		prerequisite = {
-			focus = GAK_fail_fuck_all_died
-		}
-        mutually_exclusive = {
-			focus = GAK_no_not_yet_bitchs
-		}
-		x = 13
-		y = 4
-		cost = 0.5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GAK_fail_fuck_all_died"
-            custom_effect_tooltip = GAK_groza_stop_this_shit
-			set_country_flag = end_of_experiment
-            add_political_power = 100
-		}
-	}
-
-    focus = {
 		id = GAK_no_not_yet_bitchs
 		icon = GFX_goal_GAK_no_not_yet_bitchs
 		prerequisite = {
 			focus = GAK_fail_fuck_all_died
 		}
-		available = {
-			NOT = {
-				has_country_flag = end_of_experiment
-			}
-		}
-        mutually_exclusive = {
-			focus = GAK_fuck_up_and_wakeup
-		}
-		x = 20
+		x = 15
 		y = 4
 		cost = 0.5
 
@@ -160,7 +127,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_no_not_yet_bitchs
 		}
-		x = 18
+		x = 13
 		y = 5
 		cost = 0.5
 
@@ -182,7 +149,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_no_not_yet_bitchs
 		}
-		x = 22
+		x = 17
 		y = 5
 		cost = 0.5
 
@@ -215,7 +182,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_more_fucking_humans
 		}
-		x = 17
+		x = 12
 		y = 6
 		cost = 0.5
 
@@ -240,7 +207,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_more_fucking_humans
 		}
-		x = 23
+		x = 18
 		y = 6
 		cost = 0.5
 
@@ -271,7 +238,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_more_fucking_humans
 		}
-		x = 20
+		x = 15
 		y = 7
 		cost = 0.5
 
@@ -309,7 +276,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_determine_cause_of_mistake
 		}
-		x = 18
+		x = 13
 		y = 8
 		cost = 0.5
 
@@ -332,7 +299,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_determine_cause_of_mistake
 		}
-		x = 22
+		x = 17
 		y = 8
 		cost = 0.5
 
@@ -355,7 +322,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_improve_the_something
 		}
-		x = 20
+		x = 15
 		y = 9
 		cost = 0.5
 
@@ -375,7 +342,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 20
+		x = 15
 		y = 11
 
 		cost = 0.5
@@ -400,7 +367,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 23
+		x = 18
 		y = 11
 		cost = 0.5
 
@@ -424,7 +391,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAK_change_the_experiment_how
 		}
-		x = 17
+		x = 12
 		y = 11
 		cost = 0.5
 
@@ -454,7 +421,7 @@ focus_tree = {
         prerequisite = {
 			focus = GAK_body_power_up
 		}
-		x = 20
+		x = 15
 		y = 13
 		cost = 0.5
 
@@ -465,11 +432,16 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAK_fuck_finally_we_go_home"
             add_ideas = GAK_soul_worker
+			hidden_effect = {
+				load_focus_tree = FIS_groza_control_may_final
+			}
 			country_event = {
 				id = hawaiipol.26
 			}
 		}
 	}
+
+	
 
 
 

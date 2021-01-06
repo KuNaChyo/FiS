@@ -113,6 +113,201 @@ ideas = {
 			}
 		}
 
+		ERE_technological_innovation_ideas = { #기술 혁신
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_technological_innovation_ideas"}
+			picture = GFX_idea_ERE_technological_innovation_ideas
+			modifier = {
+                research_speed_factor = 0.08
+			}
+			research_bonus = {
+				industry = 0.15
+				electronics = 0.15
+			}
+		}
+
+		ERE_import_new_equipment_ideas = { #개선된 장비
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_import_new_equipment_ideas"}
+			picture = GFX_idea_ERE_import_new_equipment_ideas
+			modifier = {
+                local_resources_factor = 0.2
+			}
+		}
+
+		ERE_Standardization_of_parts_ideas = { #부품 규격화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Standardization_of_parts_ideas"}
+			picture = GFX_idea_ERE_Standardization_of_parts_ideas
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+                production_factory_efficiency_gain_factor = 0.08
+			}
+		}
+
+		ERE_electricity_for_factories_ideas = { #발전소 개장을 위한 예산 투자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_electricity_for_factories_ideas"}
+			picture = GFX_idea_ERE_electricity_for_factories_ideas
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.2
+			}
+		}
+
+		ERE_electricity_for_factories_2_ideas = { #모두를 위한 전기
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_electricity_for_factories_ideas"}
+			picture = GFX_idea_ERE_electricity_for_factories_ideas
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		ERE_Corporate_nationalization_ideas = { #기업 국유화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Corporate_nationalization_ideas"}
+			picture = GFX_idea_ERE_Corporate_nationalization_ideas
+			modifier = {
+				stability_factor = 0.1
+				industry_free_repair_factor = 0.05
+				global_building_slots_factor = 0.15
+				production_speed_buildings_factor = 0.1
+				
+			}
+		}
+
+		ERE_corporate_privatization_ideas = { #기업 민영화
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_corporate_privatization_ideas"}
+			picture = GFX_idea_ERE_corporate_privatization_ideas
+			modifier = {
+				stability_factor = -0.05
+				industry_free_repair_factor = 0.1
+				global_building_slots_factor = 0.3
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		ERE_nice_labor_ideas = { #숙련된 노동자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_nice_labor_ideas"}
+			picture = GFX_idea_ERE_nice_labor_ideas
+			modifier = {
+				political_power_gain = 0.1
+				industrial_capacity_factory = 0.02
+			}
+		}
+
+		ERE_nice_labor_ideas_2 = { #숙련된 노동자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_nice_labor_ideas_2"}
+			picture = GFX_idea_ERE_nice_labor_ideas
+			modifier = {
+				political_power_gain = 0.3
+				industrial_capacity_factory = 0.06
+			}
+		}
+
+		ERE_nice_labor_ideas_3 = { #숙련된 노동자
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_nice_labor_ideas_3"}
+			picture = GFX_idea_ERE_nice_labor_ideas
+			modifier = {
+				political_power_gain = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		ERE_house_of_war_ideas = { #왕가의 조병창
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_house_of_war_ideas"}
+			picture = GFX_idea_ERE_house_of_war_ideas
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				motorized = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		ERE_house_of_war_2_ideas = { #왕가의 조병창
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_house_of_war_2_ideas"}
+			picture = GFX_idea_ERE_house_of_war_2_ideas
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				artillery = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				motorized = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		ERE_house_of_war_3_ideas = { #왕가의 조병창
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_house_of_war_3_ideas"}
+			picture = GFX_idea_ERE_house_of_war_3_ideas
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				artillery = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				motorized = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				mechanized = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+
+		ERE_trench_raper_ideas = { #참호 강습병
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_trench_raper_ideas"}
+			picture = GFX_idea_ERE_trench_raper_ideas
+			modifier = {
+				army_infantry_attack_factor = 0.15
+				army_infantry_defence_factor = 0.15
+			}
+		}
+
+		ERE_gas_gas_gas_ideas = { #독가스 실전 사용
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_gas_gas_gas_ideas"}
+			picture = GFX_idea_ERE_gas_gas_gas_ideas
+			modifier = {
+				breakthrough_factor = 0.3
+				resistance_growth = 0.1
+			}
+		}
 
     }
 }
