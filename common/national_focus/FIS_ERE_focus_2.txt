@@ -903,7 +903,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_not_white_army_you_knew"
-			add_political_power = 100
+			army_experience = 100
 		}
 	}
 
@@ -926,12 +926,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_already_ready_steel_army"
-			add_tech_bonus = {
-				name = ERE_mobile_doc
-				bonus = 2
-				uses = 0.5
-				category = cat_grand_battle_plan
-			}
+			army_experience = 100
 		}
 	}
 
@@ -951,7 +946,12 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_under_huge_command"
-			add_political_power = 100
+			add_tech_bonus = {
+				name = ERE_grand_battle_doc
+				bonus = 2
+				uses = 0.5
+				category = cat_grand_battle_plan
+			}
 		}
 	}
 
@@ -971,7 +971,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_like_chess"
-			add_political_power = 100
+			add_ideas = ERE_like_chess_ideas
 		}
 	}
 
@@ -991,7 +991,18 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Trust_u_and_ur_shovel"
-			add_political_power = 100
+			add_tech_bonus = {
+				name = ERE_improve_manufactures
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				name = ERE_flexible_support
+				bonus = 1
+				uses = 2
+				category = support_tech
+			}
 		}
 	}
 
@@ -1011,7 +1022,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
-			add_political_power = 100
+			add_ideas = ERE_burn_it_white_ideas
 		}
 	}
 
@@ -1052,7 +1063,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
-			add_political_power = 100
+			stability_factor = 0.05
 		}
 	}
 
@@ -1073,7 +1084,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
-			add_political_power = 100
+			war_support_factor = 0.05
 		}
 	}
 
@@ -1085,11 +1096,9 @@ focus_tree = {
 			has_country_flag = flag_ERE_both
 		}
 		prerequisite = {
-			focus = ERE_power_is_cool
+			focus = ERE_Anastasia_s_Power_Questions
 		}
-		prerequisite = {
-			focus = ERE_Stability_is_cool
-		}
+
 		x = 10
 		y = 14
 		cost = 0.5
@@ -1100,7 +1109,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_a_brave_compromise"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_a_brave_compromise_tt
 		}
 	}
 
@@ -1121,7 +1130,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_heal_the_people"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_heal_the_people_tt
 		}
 	}
 
@@ -1142,7 +1151,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_ready_the_war_tt
 		}
 	}
 
@@ -1152,6 +1161,16 @@ focus_tree = {
 
 		prerequisite = {
 			focus = ERE_ready_the_war
+		}
+		bypass = {
+			NOT = {
+				OR = {
+					has_idea = civilian_economy
+					has_idea = low_economic_mobilisation
+					has_idea = partial_economic_mobilisation
+					has_idea = war_economy
+				}
+			}
 		}
 		x = 13
 		y = 15
@@ -1163,7 +1182,35 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_National_Mobilization_Act"
-			add_political_power = 100
+			if = {
+				limit = { has_idea = civilian_economy}
+				swap_ideas = {
+					remove_idea = civilian_economy
+					add_idea = tot_economic_mobilisation
+				}
+			}
+			if = {
+
+				limit = { has_idea = low_economic_mobilisation}
+				swap_ideas = {
+					remove_idea = low_economic_mobilisation
+					add_idea = tot_economic_mobilisation
+				}
+			}
+			if = {
+				limit = { has_idea = partial_economic_mobilisation}
+				swap_ideas = {
+					remove_idea = partial_economic_mobilisation
+					add_idea = tot_economic_mobilisation
+				}
+			}
+			if = {
+				limit = { has_idea = war_economy}
+				swap_ideas = {
+					remove_idea = war_economy
+					add_idea = tot_economic_mobilisation
+				}
+			}
 		}
 	}
 

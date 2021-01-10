@@ -65,6 +65,9 @@ tech_innovation:0 "심화된 기술을 연구할수 있는 기반이 완성되�
 tooltip_people_will_worry_about_him:0 "§G제국의 신민들은 알렉세이를 걱정하며, 그에 대한 관심도가 올라갈겁니다.§!"
 tooltip_we_start_next_step:0 "§G운명의 시계탑은 돌아갑니다...§!"
 now_we_focusing_tech_tt:0 "§G이제 우린 혁신적인 기술에 집중할수 있습니다.§!"
+ERE_heal_the_people_tt:0 "§G우린 신민들의 복지나 민권에 집중하여 이곳이 러시아 최후의 낙원으로 만들겁니다.§!"
+ERE_a_brave_compromise_tt:0 "§O적절한 타협안은 우리 둘에게 좋은 대안이 될겁니다.§!"
+ERE_ready_the_war_tt:0 "§G강철의 시대에는 강철과도 같은 의지가 필요합니다. 모든 신민들은 제국을 위해 바칠겁니다.§!"
 
 # 그냥 이벤트 #
 

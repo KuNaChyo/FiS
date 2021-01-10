@@ -309,5 +309,54 @@ ideas = {
 			}
 		}
 
+		ERE_like_chess_ideas = { #체스처럼
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_like_chess_ideas"}
+			picture = GFX_idea_ERE_like_chess_ideas
+			modifier = {
+				max_planning_factor = 0.25
+				max_dig_in_factor = 0.1
+				experience_gain_army_unit_factor = 0.15
+				command_power_gain = 0.1
+			}
+		}
+
+		ERE_burn_it_white_ideas = { #청야전술
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_burn_it_white_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				breakthrough_factor = 0.3
+				resistance_growth = 0.1
+			}
+		}
+
+		ERE_Civil_Rights_Act_ideas = { #민권법 제정
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Civil_Rights_Act_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+
+		ERE_Welfare_of_Persons_with_Disabilities_ideas = { #요람에서 무덤까지
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Welfare_of_Persons_with_Disabilities_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		ERE_Patriotic_Youth_League_ideas = { #유소년 군사교육시설
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Patriotic_Youth_League_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.03
+			}
+		}
+
     }
 }
