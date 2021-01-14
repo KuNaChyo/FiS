@@ -68,6 +68,10 @@ now_we_focusing_tech_tt:0 "§G이제 우린 혁신적인 기술에 집중할수 
 ERE_heal_the_people_tt:0 "§G우린 신민들의 복지나 민권에 집중하여 이곳이 러시아 최후의 낙원으로 만들겁니다.§!"
 ERE_a_brave_compromise_tt:0 "§O적절한 타협안은 우리 둘에게 좋은 대안이 될겁니다.§!"
 ERE_ready_the_war_tt:0 "§G강철의 시대에는 강철과도 같은 의지가 필요합니다. 모든 신민들은 제국을 위해 바칠겁니다.§!"
+ERE_information_tt:0 "§G다가오는 미래를 위해, 우리는 기계장치에 익숙해질 필요가 있습니다.§!"
+ERE_information_automated_agriculture_tt:0 "§G이촌향도 현상으로 현재 농민들이 확실히 줄었습니다. 하지만, 기계화장비의 보급이 빠르게 진행된다면 농촌에서 빠져나가는 인구들을 커버 할 수 있을겁니다.§!"
+ERE_information_mechanized_bureaucracy_tt:0 "§G행정 전산화는 부족한 우리의 시간과 예산을 크게 절감할수 있습니다.§!"
+ERE_information_Artificial_intelligence_development_tt:0 "§G인공지능은 사람과 달리 지치지 않고 계속 반복적인 행동을 할수 있으며, 우리 산업에 큰 개선을 줄겁니다.§!"
 
 # 그냥 이벤트 #
 

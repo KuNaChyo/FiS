@@ -139,3 +139,74 @@ country_event = {
 		add_ideas = ERE_electricity_for_factories_2_ideas
 	}
 }
+
+#실패
+country_event = {
+	id = anastasia_russia.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.9" }
+	title = anastasia_russia.9.t
+	desc = anastasia_russia.9.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.9.a
+	}
+}
+
+#부분적인 성공
+country_event = {
+	id = anastasia_russia.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.10" }
+	title = anastasia_russia.10.t
+	desc = anastasia_russia.10.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.10.a
+		add_ideas = ERE_Information_transformation_1_ideas
+	}
+}
+
+#대규모적인 성공
+country_event = {
+	id = anastasia_russia.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.11" }
+	title = anastasia_russia.11.t
+	desc = anastasia_russia.11.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.11.a
+		add_ideas = ERE_Information_transformation_2_ideas
+	}
+}
+
+#완벽한 성공
+country_event = {
+	id = anastasia_russia.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.12" }
+	title = anastasia_russia.12.t
+	desc = anastasia_russia.12.d
+	picture = GFX_report
+
+	is_triggered_only = yes
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.12.a
+		add_ideas = ERE_Information_transformation_3_ideas
+	}
+}

@@ -1,0 +1,11 @@
+ERE_information_revolution = {
+	icon = GFX_ERE_information_revolution
+	picture = GFX_ERE_information_revolution
+	allowed = {
+		tag = ERE
+	}
+	visible = {
+		has_completed_focus = ERE_Anastasia_s_Information_Reform
+		NOT = { has_country_flag = ERE_information_revolution_finished }
+	}
+}

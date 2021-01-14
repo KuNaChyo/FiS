@@ -604,7 +604,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Anastasia_s_Information_Reform"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_information_tt
 		}
 	}
 
@@ -624,7 +624,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_mechanized_bureaucracy"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_information_mechanized_bureaucracy_tt
+			add_to_variable = {
+				var = ERE_information_point
+				value = 5
+			}
 		}
 	}
 
@@ -644,13 +648,20 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Artificial_intelligence_development"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_information_Artificial_intelligence_development_tt
+			add_to_variable = {
+				var = ERE_information_point
+				value = 5
+			}
 		}
 	}
 
 	focus = {
 		id = ERE_Empire_open_future_door
 		icon = GFX_goal_ERE_Empire_open_future_door
+		available = {
+			has_country_flag = ERE_information_revolution_finished
+		}
 		prerequisite = {
 			focus = ERE_Artificial_intelligence_development
 		}
@@ -690,7 +701,11 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_automated_agriculture"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_information_automated_agriculture_tt
+			add_to_variable = {
+				var = ERE_information_point
+				value = 5
+			}
 		}
 	}
 

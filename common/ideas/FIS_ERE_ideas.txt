@@ -358,5 +358,41 @@ ideas = {
 			}
 		}
 
+		ERE_Information_transformation_1_ideas = { #정보개혁 일부 성공
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Patriotic_Youth_League_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				consumer_goods_factor = -0.03
+				global_building_slots_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industry_free_repair_factor = 0.15
+			}
+		}
+
+		ERE_Information_transformation_2_ideas = { #정보개혁 거의 성공
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Patriotic_Youth_League_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_dockyard = 0.05
+				industry_free_repair_factor = 0.3
+			}
+		}
+
+		ERE_Information_transformation_3_ideas = { #정보개혁 전부 성공
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ERE_Patriotic_Youth_League_ideas"}
+			picture = GFX_idea_ERE_burn_it_white_ideas
+			modifier = {
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = 0.15
+				production_speed_buildings_factor = 0.2
+				industrial_capacity_dockyard = 0.1
+				industry_free_repair_factor = 0.5
+				political_power_gain = 0.1
+			}
+		}
+
     }
 }
