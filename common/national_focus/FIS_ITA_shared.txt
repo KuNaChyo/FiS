@@ -35,7 +35,8 @@
 		relative_position_id = ITA_turbulent_period
 		mutually_exclusive = { focus = ITA_great_ubermensch
 		}
-		ai_will_do = { factor = 50
+		ai_will_do = {
+			factor = 50
 		}
 		select_effect = {
 			add_stability = 0.1
@@ -75,6 +76,7 @@
 		completion_reward = {
 			add_stability = 0.25
 			country_event = { id = ITA.3 }
+			country_event = { id = ITA.4 }
 		}
 	}
 
@@ -121,7 +123,7 @@
 		prerequisite = { focus = ITA_great_ubermensch  }
 		mutually_exclusive = { focus = ITA_no_ubermensch  focus = ITA_messiah  }
 		completion_reward = {
-			country_event = { id = ITA.4 }
+			country_event = { id = ITA.5 }
 		}
 	}
 
@@ -160,11 +162,12 @@
 		}
 	}
 
+#초인 계획
 	#아노미
 	shared_focus = {
 		id = ITA_anomie
 		icon = GFX_goal_unknown
-		x = 8
+		x = 10
 		y = 1
 		cost = 1
 		search_filters = {
@@ -173,31 +176,456 @@
 		allow_branch = {
 			has_country_flag = ITA_overman
 		}
-		ai_will_do = {
-			factor = 100
-		}
 		completion_reward = {
 			add_political_power = 1
 		}
-	
 	}
 
-	#이탈리아 연방의 위기
+	#위버멘쉬즘
 	shared_focus = {
-		id = ITA_crisis
+		id = ITA_crisis_ubermenschsm
 		icon = GFX_goal_unknown
-		x = 8
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_anomie
+		prerequisite = { focus = ITA_anomie }
+		completion_reward = {
+			add_political_power = 1
+		}
+	}
+
+#초인 제작 계획
+	shared_focus = {
+		id = ITA_ubermensch_making
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_crisis_ubermenschsm
+		prerequisite = { focus = ITA_crisis_ubermenschsm }
+		completion_reward = { #정치 변경
+			add_political_power = 1
+			set_country_flag = ITA_ubermensch_plan
+			ITA_reload_tree = yes
+		}
+	}
+
+ #초인 계획 내정
+	shared_focus = { #내부정리
+		id = ITA_internal_cleanup
+		icon = GFX_goal_unknown
+		x = -5
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_making
+		allow_branch = {
+			has_country_flag = ITA_ubermensch_plan
+		}
+		prerequisite = { focus = ITA_ubermensch_making }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #강제 징용
+		id = ITA_compulsory_military_service
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_internal_cleanup
+		prerequisite = { focus = ITA_internal_cleanup }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #예비 초인 부대 편성
+		id = ITA_ubermensch_training_unit
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_compulsory_military_service
+		prerequisite = { focus = ITA_compulsory_military_service }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #범죄와의 전쟁
+		id = ITA_war_against_crime
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_training_unit
+		prerequisite = { focus = ITA_ubermensch_training_unit }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #초인의 씨앗은 죽음 속에서
+		id = ITA_ubermensch_seed
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_war_against_crime
+		prerequisite = { focus = ITA_war_against_crime }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}	
+
+		shared_focus = { #만들어지고...
+		id = ITA_ubermensch_made_in_death
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_seed
+		prerequisite = { focus = ITA_ubermensch_seed }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}		
+
+		shared_focus = { #사상 검증
+		id = ITA_verification_of_thought
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_internal_cleanup
+		prerequisite = { focus = ITA_internal_cleanup }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #대숙청
+		id = ITA_big_purge
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_verification_of_thought
+		prerequisite = { focus = ITA_verification_of_thought }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #자발적 헌납
+		id = ITA_voluntary_dedication
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_big_purge
+		prerequisite = { focus = ITA_big_purge }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #모든 것은 초인을 위해
+		id = ITA_all_for_ubermensch
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_voluntary_dedication
+		prerequisite = { focus = ITA_voluntary_dedication }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+		shared_focus = { #초인은 모두를 위해
+		id = ITA_ubermensch_for_all
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+		FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_all_for_ubermensch
+		prerequisite = { focus = ITA_all_for_ubermensch }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+
+ #초인 계획 외정
+	shared_focus = {
+		id = ITA_ubermensch_diplomacy
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_making
+		allow_branch = {
+			has_country_flag = ITA_ubermensch_plan
+		}
+		prerequisite = { focus = ITA_ubermensch_making }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+	shared_focus = { #베네치아의 운명
+		id = ITA_venice_destiny
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_diplomacy
+		prerequisite = { focus = ITA_ubermensch_diplomacy }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+	shared_focus = { #베네치아의 봉사
+		id = ITA_venice_service
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_venice_destiny
+		prerequisite = { focus = ITA_venice_destiny }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+	shared_focus = { #라치오 방면 국경 차단
+		id = ITA_blocking_the_lazio_Border
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_diplomacy
+		prerequisite = { focus = ITA_ubermensch_diplomacy }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+	shared_focus = { #교황령 장벽
+	id = ITA_Papal_barrier
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = ITA_blocking_the_lazio_Border
+	prerequisite = { focus = ITA_blocking_the_lazio_Border }
+	completion_reward = { #
+		add_political_power = 1
+	}
+}
+
+	shared_focus = { #초인 보호 기관 창설
+	id = ITA_creating_ubermensch_protection_agency
+	icon = GFX_goal_unknown
+	x = -1
+	y = 1
+	cost = 1
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = ITA_Papal_barrier
+	prerequisite = { focus = ITA_Papal_barrier }
+	prerequisite = { focus = ITA_venice_service }
+	completion_reward = { #
+		add_political_power = 1
+	}
+}
+
+	shared_focus = { #내부의 적
+	id = ITA_enemy_within
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = ITA_creating_ubermensch_protection_agency
+	prerequisite = { focus = ITA_creating_ubermensch_protection_agency }
+	completion_reward = { #
+		add_political_power = 1
+	}
+}
+
+	shared_focus = { #그림자 연방 의회
+	id = ITA_shadow_federal_parliament
+	icon = GFX_goal_unknown
+	x = 0
+	y = 1
+	cost = 1
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	relative_position_id = ITA_enemy_within
+	prerequisite = { focus = ITA_enemy_within }
+	completion_reward = { #
+		add_political_power = 1
+	}
+}
+	
+ #초인 계획 기술
+	shared_focus = {
+		id = ITA_ubermensch_tech
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_making
+		allow_branch = {
+			has_country_flag = ITA_ubermensch_plan
+		}
+		prerequisite = { focus = ITA_ubermensch_making }
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+#초인 계획 기술 - 과학
+	shared_focus = {
+		id = ITA_ubermensch_tech_science
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_tech
+		prerequisite = { focus = ITA_ubermensch_tech }
+		mutually_exclusive = {
+			focus = ITA_ubermensch_tech_occult focus = ITA_ubermensch_tech_fusion
+		}
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+#초인 계획 기술 - 신비
+	shared_focus = {
+		id = ITA_ubermensch_tech_occult
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_tech
+		prerequisite = { focus = ITA_ubermensch_tech }
+		mutually_exclusive = {
+			focus = ITA_ubermensch_tech_science focus = ITA_ubermensch_tech_fusion
+		}
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+#초인 계획 기술 - 융합
+	shared_focus = {
+		id = ITA_ubermensch_tech_fusion
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = ITA_ubermensch_tech
+		prerequisite = { focus = ITA_ubermensch_tech }
+		mutually_exclusive = {
+			focus = ITA_ubermensch_tech_science focus = ITA_ubermensch_tech_occult
+		}
+		completion_reward = { #
+			add_political_power = 1
+		}
+	}
+
+#초인 계획 가동
+	shared_focus = {
+		id = ITA_initiate_ubermensch_planning
+		icon = GFX_goal_unknown
+		x = 0
 		y = 2
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ITA_anomie }
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
+		relative_position_id = ITA_shadow_federal_parliament
+		prerequisite = { focus = ITA_shadow_federal_parliament }
+		prerequisite = { focus = ITA_ubermensch_made_in_death }
+		prerequisite = { focus = ITA_ubermensch_for_all }
+		completion_reward = { #
 			add_political_power = 1
 		}
-	
 	}
