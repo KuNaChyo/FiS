@@ -333,6 +333,7 @@ focus_tree = {
 			custom_effect_tooltip = now_we_focusing_tech_tt
 			hidden_effect = {
 				set_country_flag = tech_innovation
+				set_country_flag = end_of_future_industry_flag
 			}
 		}
 	}
@@ -681,7 +682,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Empire_open_future_door"
-			add_political_power = 100
+			custom_effect_tooltip = ERE_Empire_open_future_door_tt
+			set_country_flag = end_of_future_revolution_flag
 		}
 	}
 
@@ -774,7 +776,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ERE_mobile_doc
 				bonus = 2
-				uses = 0.5
+				uses = 2
 				category = cat_mobile_warfare
 			}
 		}
@@ -919,6 +921,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_not_white_army_you_knew"
 			army_experience = 100
+			set_country_flag = end_of_future_army_revolution_flag
 		}
 	}
 
@@ -1038,15 +1041,16 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_burn_it_white"
 			add_ideas = ERE_burn_it_white_ideas
+			set_country_flag = end_of_future_army_revolution_flag
 		}
 	}
 
 	focus = {
 		id = ERE_Anastasia_s_Power_Questions
 		icon = GFX_goal_ERE_Anastasia_s_Power_Questions
-		#allow_branch = {
-		#	has_country_flag = flag_ERE_power_problem
-		#}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
 		x = 10
 		y = 12
 		cost = 0.5
@@ -1068,6 +1072,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_Anastasia_s_Power_Questions
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
 		x = 8
 		y = 13
 		cost = 0.5
@@ -1088,6 +1095,9 @@ focus_tree = {
 
 		prerequisite = {
 			focus = ERE_Anastasia_s_Power_Questions
+		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
 		}
 		x = 12
 		y = 13
@@ -1113,6 +1123,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_Anastasia_s_Power_Questions
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
 
 		x = 10
 		y = 14
@@ -1135,6 +1148,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_Stability_is_cool
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
+
 		x = 8
 		y = 14
 		cost = 0.5
@@ -1156,6 +1173,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_power_is_cool
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
+
 		x = 12
 		y = 14
 		cost = 0.5
@@ -1176,6 +1197,9 @@ focus_tree = {
 
 		prerequisite = {
 			focus = ERE_ready_the_war
+		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
 		}
 		bypass = {
 			NOT = {
@@ -1236,6 +1260,9 @@ focus_tree = {
 			focus = ERE_ready_the_war
 			focus = ERE_a_brave_compromise
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
 
 		x = 11
 		y = 15
@@ -1247,7 +1274,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Patriotic_Youth_League"
-			add_political_power = 100
+			add_ideas = ERE_Patriotic_Youth_League_ideas
 		}
 	}
 
@@ -1257,6 +1284,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_heal_the_people
 			focus = ERE_a_brave_compromise
+		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
 		}
 
 		x = 9
@@ -1269,7 +1299,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Welfare_of_Persons_with_Disabilities"
-			add_political_power = 100
+			add_ideas = ERE_Welfare_of_Persons_with_Disabilities_ideas
 		}
 	}
 
@@ -1280,6 +1310,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ERE_heal_the_people
 		}
+		available = {
+			has_country_flag = flag_ERE_power_problem
+		}
+
 		x = 7
 		y = 15
 		cost = 0.5
@@ -1290,7 +1324,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ERE_Civil_Rights_Act"
-			add_political_power = 100
+			add_political_power = 200
 		}
 	}
 

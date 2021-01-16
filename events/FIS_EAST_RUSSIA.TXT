@@ -210,3 +210,24 @@ country_event = {
 		add_ideas = ERE_Information_transformation_3_ideas
 	}
 }
+
+country_event = {
+	id = anastasia_russia.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event anastasia_russia.13" }
+	title = anastasia_russia.13.t
+	desc = anastasia_russia.13.d
+	picture = GFX_report
+
+	trigger = {
+		has_country_flag = end_of_future_army_revolution_flag
+		has_country_flag = end_of_future_revolution_flag
+		has_country_flag = end_of_future_industry_flag
+	}
+
+    fire_only_once = yes
+
+	option = {
+		name = anastasia_russia.13.a
+		set_country_flag = flag_ERE_power_problem
+	}
+}

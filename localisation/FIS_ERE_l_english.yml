@@ -59,6 +59,7 @@ people_worry_about_alexei:0 "제국 신민들이 알렉세이에 대해 걱정�
 flag_anastasia_won:0 "아나스타샤가 논쟁에서 승리하다."
 flag_general_won:0 "보수파 장군들이 논쟁에서 승리하다."
 tech_innovation:0 "심화된 기술을 연구할수 있는 기반이 완성되었습니다."
+flag_ERE_power_problem:0 "제국의 앞길을 결정지을 회의가 시작되다..."
 
 # 툴팁 #
 
@@ -72,6 +73,7 @@ ERE_information_tt:0 "§G다가오는 미래를 위해, 우리는 기계장치�
 ERE_information_automated_agriculture_tt:0 "§G이촌향도 현상으로 현재 농민들이 확실히 줄었습니다. 하지만, 기계화장비의 보급이 빠르게 진행된다면 농촌에서 빠져나가는 인구들을 커버 할 수 있을겁니다.§!"
 ERE_information_mechanized_bureaucracy_tt:0 "§G행정 전산화는 부족한 우리의 시간과 예산을 크게 절감할수 있습니다.§!"
 ERE_information_Artificial_intelligence_development_tt:0 "§G인공지능은 사람과 달리 지치지 않고 계속 반복적인 행동을 할수 있으며, 우리 산업에 큰 개선을 줄겁니다.§!"
+ERE_Empire_open_future_door_tt:0 "§G열쇠의 주도권은 우리에게 있습니다!§!"
 
 # 그냥 이벤트 #
 
@@ -206,4 +208,4 @@ ERE_ready_the_war:0 "총이나 들어"
 ERE_National_Mobilization_Act:0 "제국총동원법 통과"
 ERE_Patriotic_Youth_League:0 "제국 청년단"
 ERE_Welfare_of_Persons_with_Disabilities:0 "장애인복지법 통과"
-ERE_Civil_Rights_Act:0 "평등법 통과"
+ERE_Civil_Rights_Act:0 "평등한 시민 위에 위대한 여대공"
